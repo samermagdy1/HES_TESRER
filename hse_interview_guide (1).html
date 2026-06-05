@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل مقابلات HSE - مصانع العبوات البلاستيكية</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--pr:#0a1628;--ac:#f59e0b;--ac2:#10b981;--sf:#0f2040;--cd:#162a4a;--cd2:#1a3355;--bd:rgba(245,158,11,0.2);--tx:#e8f0fe;--tm:#94a3b8;--td:#64748b}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Cairo',sans-serif;background:var(--pr);color:var(--tx);min-height:100vh;direction:rtl;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 20% 10%,rgba(245,158,11,.06) 0%,transparent 60%);pointer-events:none;z-index:0}
+header{position:sticky;top:0;z-index:100;background:rgba(10,22,40,.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd)}
+.hdr{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem 1rem;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:.6rem}
+.logo-ic{width:38px;height:38px;background:linear-gradient(135deg,var(--ac),#d97706);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;box-shadow:0 0 16px rgba(245,158,11,.4)}
+.logo-t{font-size:.88rem;font-weight:700;line-height:1.2}.logo-s{font-size:.62rem;color:var(--ac);font-weight:500}
+.hdr-stats{display:flex;gap:.55rem;flex-wrap:wrap}
+.sbadge{background:var(--cd);border:1px solid var(--bd);border-radius:20px;padding:.2rem .65rem;font-size:.67rem;color:var(--ac);font-weight:600;white-space:nowrap}
+.hero{position:relative;z-index:1;padding:2.5rem 1rem 1.8rem;text-align:center;max-width:860px;margin:0 auto}
+.hero h1{font-size:clamp(1.3rem,3.5vw,2.3rem);font-weight:900;line-height:1.35;margin-bottom:.7rem}
+.hero h1 span{color:var(--ac)}.hero p{color:var(--tm);font-size:clamp(.8rem,2vw,.95rem);line-height:1.8;max-width:680px;margin:0 auto}
+.sw{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 1rem 1rem}
+.stitle{font-size:clamp(.92rem,2.5vw,1.15rem);font-weight:800;color:var(--tx);margin-bottom:.8rem;display:flex;align-items:center;gap:.5rem}
+.stitle::after{content:'';flex:1;height:1px;background:var(--bd)}
+.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(192px,1fr));gap:.6rem;margin-bottom:1.8rem}
+.cbtn{background:var(--cd);border:1px solid rgba(255,255,255,.06);border-radius:11px;padding:.8rem .95rem;cursor:pointer;transition:all .22s;text-align:right;display:flex;flex-direction:column;gap:.28rem}
+.cbtn:hover{border-color:rgba(245,158,11,.35);transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.3)}
+.cbtn.active{border-color:var(--ac);background:var(--cd2);box-shadow:0 0 0 1px rgba(245,158,11,.25)}
+.ch-n{font-size:.6rem;color:var(--ac);font-weight:700;opacity:.85}.ch-t{font-size:.74rem;font-weight:700;color:var(--tx);line-height:1.4}.ch-e{font-size:.6rem;color:var(--td)}
+.spgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(218px,1fr));gap:.6rem;margin-bottom:2rem}
+.spbtn{background:linear-gradient(135deg,var(--cd2),var(--cd));border:1px solid rgba(16,185,129,.18);border-radius:11px;padding:.85rem 1rem;cursor:pointer;transition:all .22s;text-align:right;display:flex;align-items:center;gap:.7rem}
+.spbtn:hover{border-color:var(--ac2);transform:translateY(-2px);box-shadow:0 6px 20px rgba(16,185,129,.12)}
+.spbtn.active{border-color:var(--ac2)}
+.sp-ic{width:32px;height:32px;border-radius:8px;background:rgba(16,185,129,.13);display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0}
+.sp-tl{font-size:.78rem;font-weight:700;color:var(--tx);line-height:1.3}.sp-ct{font-size:.6rem;color:var(--ac2);font-weight:600;margin-top:.15rem}
+.ca{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:0 1rem 4rem}
+.rpanel{background:var(--cd);border:1px solid var(--bd);border-radius:14px;overflow:hidden;display:none;animation:sU .35s ease}
+.rpanel.visible{display:block}
+.rhdr{background:var(--cd2);padding:.85rem 1.15rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.rtitle{font-size:.97rem;font-weight:800;color:var(--ac);display:flex;align-items:center;gap:.45rem}
+.rmeta{display:flex;gap:.4rem;flex-wrap:wrap}
+.mtag{background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.18);border-radius:10px;padding:.16rem .5rem;font-size:.62rem;color:var(--ac);font-weight:600}
+.qctr{display:flex;gap:.45rem;padding:.6rem 1.15rem;border-bottom:1px solid var(--bd);flex-wrap:wrap;align-items:center}
+.ctr-t{font-size:.71rem;color:var(--td)}.ctr-n{color:var(--ac);font-weight:700}
+.btn-ea,.btn-ca{background:none;border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:.18rem .55rem;font-size:.65rem;color:var(--tm);cursor:pointer;font-family:'Cairo',sans-serif;transition:all .2s}
+.btn-ea:hover,.btn-ca:hover{border-color:var(--ac);color:var(--ac)}.btn-ca{margin-right:auto}
+.qcont{padding:1.25rem}
+.qitem{background:var(--sf);border:1px solid rgba(255,255,255,.05);border-radius:11px;margin-bottom:.75rem;overflow:hidden;transition:border-color .2s;animation:fU .38s ease both}
+.qitem:hover{border-color:rgba(245,158,11,.18)}
+.qqst{padding:.85rem .95rem;display:flex;gap:.7rem;align-items:flex-start;cursor:pointer;user-select:none}
+.qn{background:linear-gradient(135deg,var(--ac),#d97706);color:var(--pr);font-size:.65rem;font-weight:800;border-radius:6px;padding:.16rem .42rem;flex-shrink:0;min-width:24px;text-align:center;margin-top:.12rem}
+.qt{font-size:.86rem;font-weight:700;color:var(--tx);line-height:1.6;flex:1}
+.qtg{color:var(--td);font-size:.9rem;flex-shrink:0;transition:transform .3s;margin-top:.12rem}
+.qitem.open .qtg{transform:rotate(180deg);color:var(--ac)}
+.qans{max-height:0;overflow:hidden;transition:max-height .42s ease}
+.qitem.open .qans{max-height:4000px}
+.ains{padding:0 .95rem 1rem;border-top:1px solid rgba(255,255,255,.05)}
+.albl{display:inline-flex;align-items:center;gap:.28rem;background:rgba(16,185,129,.09);border:1px solid rgba(16,185,129,.18);border-radius:6px;padding:.16rem .5rem;font-size:.6rem;color:var(--ac2);font-weight:700;margin:.7rem 0 .5rem}
+.atxt{font-size:.82rem;color:var(--tm);line-height:1.95;white-space:pre-wrap}
+.tipb{background:rgba(245,158,11,.05);border:1px solid rgba(245,158,11,.13);border-right:3px solid var(--ac);border-radius:0 8px 8px 0;padding:.6rem .9rem;margin-top:.7rem;font-size:.76rem;color:#fbbf24;line-height:1.7}
+footer{position:relative;z-index:1;background:var(--sf);border-top:1px solid var(--bd);padding:1.3rem 1rem;text-align:center;color:var(--td);font-size:.72rem;line-height:1.85}
+footer span{color:var(--ac);font-weight:600}
+.est{padding:3rem 2rem;text-align:center;color:var(--td)}
+.esi{font-size:3rem;margin-bottom:.8rem;opacity:.45}.estt{font-size:1rem;font-weight:700;color:var(--tm);margin-bottom:.4rem}.ess{font-size:.78rem;line-height:1.7}
+@keyframes fU{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes sU{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:768px){.cgrid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:.45rem}.spgrid{grid-template-columns:1fr 1fr}.hero{padding:1.8rem 1rem 1.3rem}.qcont{padding:.9rem .7rem}.qt{font-size:.81rem}.atxt{font-size:.79rem}}
+@media(max-width:480px){.cgrid{grid-template-columns:1fr 1fr}.spgrid{grid-template-columns:1fr}.hdr-stats{display:none}}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--pr)}::-webkit-scrollbar-thumb{background:#1e3a5f;border-radius:3px}
+</style>
+</head>
+<body>
+<header>
+<div class="hdr">
+  <div class="logo">
+    <div class="logo-ic">&#128737;</div>
+    <div><div class="logo-t">&#1583;&#1604;&#1610;&#1604; &#1605;&#1602;&#1575;&#1576;&#1604;&#1575;&#1578; HSE</div><div class="logo-s">&#1605;&#1589;&#1575;&#1606;&#1593; &#1575;&#1604;&#1593;&#1576;&#1608;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1575;&#1587;&#1578;&#1610;&#1603;&#1610;&#1577;</div></div>
+  </div>
+  <div class="hdr-stats">
+    <div class="sbadge">40 &#1601;&#1589;&#1604;&#1575;&#1611;</div>
+    <div class="sbadge">500+ &#1587;&#1572;&#1575;&#1604;</div>
+    <div class="sbadge">&#1573;&#1580;&#1575;&#1576;&#1575;&#1578; &#1588;&#1575;&#1605;&#1604;&#1577;</div>
+  </div>
+</div>
+</header>
+<section class="hero">
+  <h1>&#1575;&#1604;&#1583;&#1604;&#1610;&#1604; &#1575;&#1604;&#1588;&#1575;&#1605;&#1604; &#1604;&#1605;&#1602;&#1575;&#1576;&#1604;&#1575;&#1578; <span>&#1575;&#1604;&#1587;&#1604;&#1575;&#1605;&#1577; &#1608;&#1575;&#1604;&#1589;&#1581;&#1577; &#1575;&#1604;&#1605;&#1607;&#1606;&#1610;&#1577;</span></h1>
+  <p>&#1575;&#1582;&#1578;&#1585; &#1571;&#1610; &#1601;&#1589;&#1604; &#1604;&#1593;&#1585;&#1590; &#1575;&#1604;&#1571;&#1587;&#1574;&#1604;&#1577; &#1608;&#1575;&#1604;&#1573;&#1580;&#1575;&#1576;&#1575;&#1578; &#1575;&#1604;&#1578;&#1601;&#1589;&#1610;&#1604;&#1610;&#1577; &#1601;&#1608;&#1585;&#1575;&#1611;</p>
+</section>
+<div class="sw">
+  <div class="stitle">&#128218; &#1575;&#1604;&#1601;&#1589;&#1608;&#1604; &#1575;&#1604;&#1571;&#1585;&#1576;&#1593;&#1608;&#1606;</div>
+  <div class="cgrid" id="cgrid"></div>
+  <div class="stitle">&#11088; &#1571;&#1602;&#1587;&#1575;&#1605; &#1605;&#1578;&#1582;&#1589;&#1589;&#1577;</div>
+  <div class="spgrid" id="spgrid"></div>
+</div>
+<div class="ca">
+  <div class="rpanel" id="rp">
+    <div class="rhdr">
+      <div class="rtitle" id="rtitle">&#128214; &#1575;&#1604;&#1571;&#1587;&#1574;&#1604;&#1577; &#1608;&#1575;&#1604;&#1573;&#1580;&#1575;&#1576;&#1575;&#1578;</div>
+      <div class="rmeta" id="rmeta"></div>
+    </div>
+    <div class="qctr" id="qctr" style="display:none">
+      <span class="ctr-t">&#1575;&#1604;&#1571;&#1587;&#1574;&#1604;&#1577;: <span class="ctr-n" id="qcn">0</span></span>
+      <button class="btn-ea" onclick="expAll()">&#1601;&#1578;&#1581; &#1575;&#1604;&#1603;&#1604; &#9660;</button>
+      <button class="btn-ca" onclick="colAll()">&#1573;&#1594;&#1604;&#1575;&#1602; &#1575;&#1604;&#1603;&#1604; &#9650;</button>
+    </div>
+    <div class="qcont" id="qcont">
+      <div class="est"><div class="esi">&#127919;</div><div class="estt">&#1575;&#1582;&#1578;&#1585; &#1601;&#1589;&#1604;&#1575;&#1611; &#1604;&#1604;&#1576;&#1583;&#1569;</div><div class="ess">&#1575;&#1606;&#1602;&#1585; &#1593;&#1604;&#1609; &#1571;&#1610; &#1601;&#1589;&#1604; &#1571;&#1608; &#1602;&#1587;&#1605; &#1605;&#1578;&#1582;&#1589;&#1589; &#1605;&#1606; &#1575;&#1604;&#1602;&#1575;&#1574;&#1605;&#1577; &#1571;&#1593;&#1604;&#1575;&#1607;</div></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div>&#1583;&#1604;&#1610;&#1604; &#1605;&#1602;&#1575;&#1576;&#1604;&#1575;&#1578; &#1575;&#1604;&#1587;&#1604;&#1575;&#1605;&#1577; &#1608;&#1575;&#1604;&#1589;&#1581;&#1577; &#1575;&#1604;&#1605;&#1607;&#1606;&#1610;&#1577; | &#1605;&#1589;&#1575;&#1606;&#1593; &#1575;&#1604;&#1593;&#1576;&#1608;&#1575;&#1578; &#1575;&#1604;&#1576;&#1604;&#1575;&#1587;&#1578;&#1610;&#1603;&#1610;&#1577; &#1608;&#1571;&#1606;&#1575;&#1576;&#1610;&#1576; &#1605;&#1593;&#1580;&#1608;&#1606; &#1575;&#1604;&#1571;&#1587;&#1606;&#1575;&#1606;</div>
+  <div>&#1576;&#1608;&#1575;&#1587;&#1591;&#1577; <span>Samir Magdy</span> | 01551718406</div>
+</footer>
+<script>
+const DB={
+ch1:[
+{q:"ما هو تعريف السلامة والصحة المهنية OHS؟",a:"السلامة والصحة المهنية هي العلم والممارسة التي تهدف إلى الوقاية من الإصابات والأمراض المهنية الناجمة عن بيئة العمل، وتشمل:\n• تحديد المخاطر في مكان العمل\n• تقييم درجة الخطورة وتأثيرها على العمال\n• اتخاذ الإجراءات الوقائية والتحكم في المخاطر\n• ضمان بيئة عمل آمنة وصحية للجميع\n\nفي مصانع البلاستيك تشمل: معالجة مخاطر الحرارة الشديدة من خطوط البثق، الغازات المنبعثة من PVC، الضوضاء المرتفعة، الآلات الدوارة، والمواد الكيميائية في الطباعة.",tip:"في المقابلة: اربط التعريف بالصناعة مباشرة — اذكر أمثلة من مصانع البلاستيك والتعبئة."},
+{q:"ما الفرق بين Hazard و Risk؟",a:"Hazard (الخطر): أي شيء لديه القدرة على التسبب في ضرر.\nمثال: ماكينة البثق الساخنة = Hazard\n\nRisk (المخاطرة): احتمال وقوع الضرر مضروباً في شدته.\nالمعادلة: Risk = Likelihood × Severity\n\nمثال تطبيقي في مصنع الطباعة:\n• Hazard: مذيبات الطباعة (Toluene) قابلة للاشتعال\n• Risk: احتمال اندلاع حريق إذا لم تكن التهوية كافية\n\nأهمية الفرق:\nلا يمكن إزالة كل Hazard، لكن يمكن تقليل الـ Risk بالتحكم الهندسي والإداري.",tip:"الخطأ الشائع: كثيرون يخلطون بين المصطلحين. وضّح الفرق بمثال عملي من المصنع مباشرة."},
+{q:"ما هي مثلث هاينريش وكيف يُطبَّق في المصانع؟",a:"مثلث هاينريش يوضح أن:\n• مقابل كل حادثة خطيرة واحدة ← 10 إصابات طفيفة\n• مقابل كل 10 إصابات ← 30 حادثة تلف ممتلكات\n• مقابل كل 30 حادثة ممتلكات ← 600 حادثة Near Miss\n\nالرسالة الجوهرية:\nمعالجة الـ Near Miss هي المفتاح الحقيقي لمنع الحوادث الكبرى قبل وقوعها.\n\nتطبيق في مصانع البلاستيك:\nعامل يقترب من حاجز الماكينة المفتوح دون إصابة = Near Miss خطير يجب التحقيق فيه فوراً وإلا تحول لحادثة خطيرة لاحقاً.",tip:"اذكر رقم 600 Near Miss مقابل حادثة — يُثبت معرفتك بنظرية السلامة الأساسية."},
+{q:"ما هي مهام Safety Officer اليومية في مصنع عبوات بلاستيكية؟",a:"الجولات الميدانية الصباحية:\n• تفتيش خطوط البثق: سلامة الحواجز والأسطح الساخنة\n• فحص قسم الطباعة: التهوية وعدم تراكم أبخرة المذيبات\n• التحقق من PPE لكل العمال في كل منطقة\n• مراجعة تصاريح العمل النشطة (PTW)\n\nالمهام الإدارية:\n• مراجعة تقارير الحوادث والـ Near Miss من الوردية السابقة\n• متابعة إغلاق الملاحظات المفتوحة في الموعد\n• تحديث سجلات التدريب\n\nالمهام الأسبوعية:\n• اجتماع سلامة أسبوعي مع المشرفين\n• فحص طفايات الحريق والعلامات\n\nالمهام الشهرية:\n• تمرين طوارئ + تقرير KPIs للإدارة",tip:"روتين يومي محدد يُثبت خبرتك الميدانية الحقيقية ويُقنع المحاور بكفاءتك."},
+{q:"ما الفرق بين Proactive و Reactive Safety؟",a:"Reactive Safety (تفاعلية):\n• التصرف بعد وقوع الحوادث\n• تعديل الإجراءات بعد وقوع الضرر\n• مؤشراتها: TRIR, LTIR\n\nProactive Safety (استباقية):\n• التصرف قبل وقوع الحوادث\n• تقييم المخاطر مسبقاً، تدريب دوري، Near Miss Reporting\n• مؤشراتها: عدد التفتيشات، تقارير Near Miss، نسبة التدريب\n\nالنظام الصحيح:\n80% Proactive + 20% Reactive = نظام HSE ناجح حقيقي\n\nمثال: بدلاً من انتظار حادثة بثق، أجرِ Risk Assessment مسبقاً وطبّق الحواجز قبل البدء.",tip:"المحاورون يبحثون عن عقلية Proactive — أعطِ أمثلة استباقية واضحة من تجربتك."},
+{q:"كيف تبني ثقافة السلامة في مصنع جديد؟",a:"المرحلة الأولى (30 يوم) — التقييم:\n• مسح Gap Analysis شامل\n• قياس مستوى الوعي الحالي\n• مراجعة سجلات الحوادث السابقة\n\nالمرحلة الثانية (30-90 يوم) — البناء:\n• وضع سياسة السلامة وتوقيعها من الإدارة العليا\n• تدريب المشرفين على Safety Leadership\n• إطلاق نظام Near Miss Reporting\n\nالمرحلة الثالثة — الترسيخ:\n• تطبيق BBS (السلامة السلوكية)\n• مكافأة السلوك الآمن بشكل منتظم\n• قياس المؤشرات ونشرها شهرياً\n\nمبدأ جوهري: السلامة لا تُبنى بالأوامر بل بالقناعة والقدوة من الإدارة.",tip:"الإجابة بمراحل زمنية محددة تُظهر التفكير المنهجي — صفة أساسية لقائد HSE."},
+{q:"ما معنى Zero Harm وكيف يُطبَّق في المصانع؟",a:"Zero Harm: الهدف الاستراتيجي الأعلى — صفر إصابات، صفر أمراض مهنية، صفر تلوث بيئي.\n\nكيف يُطبَّق فعلياً:\n1. Leadership Commitment: الإدارة تُجري جولات ميدانية وترتدي PPE كمثال\n2. Hierarchy of Controls: القضاء على المخاطر هندسياً قبل PPE\n3. Stop Work Authority: كل عامل له حق إيقاف العمل الخطر\n4. التحسين المستمر: مراجعة دورية للإجراءات\n\nتحدي التطبيق:\nتغيير العقلية من 'الحوادث طبيعية في المصانع' إلى 'كل حادثة يمكن منعها'.",tip:"أظهر إيمانك الحقيقي بـ Zero Harm كهدف واقعي قابل للتحقيق وليس مجرد شعار."},
+{q:"ما هي أنواع الحوادث التي يجب الإبلاغ عنها؟",a:"تصنيف الحوادث من الأشد للأخف:\n1. Fatality: وفاة ← إبلاغ فوري للجهات المختصة\n2. Lost Time Injury (LTI): إصابة مع غياب يوم أو أكثر\n3. Restricted Work Case (RWC): إصابة تُحدّ من قدرة العمل\n4. Medical Treatment Case (MTC): إصابة تحتاج علاجاً طبياً\n5. First Aid Case (FAC): إصابة تُعالج بالإسعافات فقط\n6. Near Miss: حادثة كادت تقع لكن لم تُسبب ضرراً\n7. Property Damage: تلف معدات\n\nما يدخل في حساب TRIR:\nالأنواع 2 + 3 + 4 فقط\n\nالأهم للإبلاغ: Near Miss لأنه مؤشر الوقاية الحقيقي.",tip:"اعرف دقيقاً ما يدخل في TRIR وما لا يدخل — سؤال محوري في مقابلات HSE."},
+{q:"كيف تقيس فعالية برنامج السلامة؟",a:"Lagging Indicators (مؤشرات لاحقة):\n• TRIR = (إصابات × 200,000) ÷ ساعات عمل\n• LTIR = (LTI × 200,000) ÷ ساعات عمل\n• معدل الشدة SI\n\nLeading Indicators (مؤشرات رائدة — تتنبأ بالمستقبل):\n• عدد جولات التفتيش الشهرية\n• نسبة إغلاق الملاحظات في الموعد (هدف 90%+)\n• عدد تقارير Near Miss شهرياً\n• نسبة اكتمال التدريبات (هدف 95%+)\n• %Safe من ملاحظات BBS\n\nالتوازن المثالي:\nLagging تُخبرك بما حدث\nLeading تُخبرك بما سيحدث\n\nمعيار الأداء الجيد في التعبئة: TRIR < 1.0",tip:"من يعرف الفرق بين Lagging و Leading Indicators يُظهر نضجاً مهنياً حقيقياً."},
+{q:"ما هي مسؤوليات الإدارة العليا تجاه السلامة وفق ISO 45001؟",a:"وفق البند 5.1 من ISO 45001:\n\n1. تحمّل المسؤولية الكاملة عن نظام HSE\n2. وضع سياسة وأهداف HSE معتمدة ومنشورة\n3. توفير الموارد: ميزانية، وقت، أفراد مؤهلون\n4. تكامل HSE في قرارات الأعمال اليومية\n5. دعم ثقافة الإبلاغ بدون عقوبة\n6. Management Review دوري لمؤشرات الأداء\n\nالخطأ الشائع في المصانع:\nتحميل HSE Officer كل المسؤولية — الصحيح: السلامة مسؤولية جميع المستويات من المدير للعامل.",tip:"إجابتك بالإشارة لبند محدد من ISO 45001 تُثبت عمق معرفتك الأكاديمية والتطبيقية."},
+{q:"ما هي صلاحية Stop Work Authority وكيف تُطبّقها؟",a:"Stop Work Authority (SWA): حق أي عامل في إيقاف العمل عند وجود خطر داهم.\n\nمتى تستخدم SWA:\n• خطر وشيك يهدد الحياة مباشرة\n• PPE المطلوب غير متوفر\n• لا يوجد تصريح عمل صالح لعمل خطر\n• تسرب غاز أو مواد خطرة غير متوقعة\n• LOTO غير مُطبَّق\n\nالإجراء الصحيح:\n1. قل 'أوقف' بوضوح وثقة\n2. أخلِ المنطقة المباشرة\n3. أبلغ المشرف وHSE فوراً\n4. وثّق بصور + تقرير\n5. لا تُعيد العمل حتى إزالة الخطر والتحقق\n\nثقافة SWA الصحيحة:\nلا عقوبة على من أوقف العمل بحسن نية — حتى لو تبيّن أن الخطر أقل مما ظنّ.",tip:"أكد بثقة أن لديك الجرأة لإيقاف العمل رغم ضغط الإنتاج — هذا ما يبحث عنه المحاور."},
+{q:"ما هي مكونات نظام إدارة السلامة SMS وفق PDCA؟",a:"نظام إدارة السلامة مبني على دورة PDCA:\n\nPlan (البنود 4,5,6 في ISO 45001):\n• تحليل السياق والمخاطر\n• وضع السياسة والأهداف والخطط\n\nDo (البنود 7,8):\n• توفير الموارد والتدريب\n• تطبيق الإجراءات: PTW, LOTO, Emergency Response\n\nCheck (البند 9):\n• قياس الأداء (KPIs)\n• التدقيق الداخلي\n• مراجعة الإدارة\n\nAct (البند 10):\n• إجراءات تصحيحية\n• التحسين المستمر\n\nالدورة لا تنتهي — كل دورة تُنتج نظاماً أفضل من السابق.\nالإطار: ISO 45001:2018 هو المعيار الدولي لـ SMS",tip:"ربط SMS بدورة PDCA وبنود ISO 45001 يُظهر فهماً متكاملاً ومحترفاً."}
+],
+ch2:[
+{q:"ما هي OSHA وما هدفها الرئيسي؟",a:"OSHA: Occupational Safety and Health Administration\nوكالة حكومية أمريكية أُسست 1970 تحت وزارة العمل.\n\nالهدف: وضع وتطبيق معايير السلامة المهنية + تفتيش المنشآت + تدريب أصحاب العمل والعمال.\n\nأهميتها للمصانع المصرية:\nالشركات الدولية في مصر كـ EPL وAmcor تُعتمد معايير OSHA كمرجع للممارسات الفضلى الدولية.",tip:"اذكر أن OSHA مرجع دولي يُطبق في شركات التعبئة العالمية العاملة في مصر."},
+{q:"ما هي أهم معايير OSHA لمصانع البلاستيك والطباعة؟",a:"أبرز المعايير التطبيقية:\n\n29 CFR 1910.147 — LOTO:\nعزل الطاقة الخطرة — حيوي لكل خطوط البثق\n\n29 CFR 1910.106 — Flammable Liquids:\nتخزين المذيبات القابلة للاشتعال في قسم الطباعة\n\n29 CFR 1910.1000 — Air Contaminants:\nحدود التعرض المسموح بها للأبخرة (PEL)\n\n29 CFR 1910.132-138 — PPE:\nاشتراطات اختيار وتوفير واستخدام معدات الحماية\n\n29 CFR 1910.157 — Fire Extinguishers:\nمواقع وأنواع وصيانة الطفايات\n\n29 CFR 1910.212 — Machine Guarding:\nحواجز الآلات لخطوط التعبئة والبثق",tip:"حفظ أرقام المعايير مع مجالها يُظهر عمق معرفتك التقنية ويُميزك بوضوح."},
+{q:"ما هي OSHA 300 Log وما أقسامها الثلاثة؟",a:"OSHA Recordkeeping:\n\nForm 300 — سجل الحوادث والأمراض:\nيُحدَّث طوال العام لكل حادثة قابلة للتسجيل\n\nForm 300A — الملخص السنوي:\nيُنشر في مكان بارز من 1 فبراير إلى 30 أبريل\n\nForm 301 — تقرير الحادثة الفردية:\nتقرير تفصيلي لكل حادثة منفصلة\n\nما يُسجَّل: LTI + RWC + MTC + أمراض مهنية\nما لا يُسجَّل: First Aid Cases و Near Miss\n\nمدة الاحتفاظ بالسجلات: 5 سنوات كحد أدنى",tip:"الفرق بين 300 و300A و301 سؤال شائع جداً في مقابلات HSE — احفظه جيداً."},
+{q:"ما معنى General Duty Clause في OSHA؟",a:"القسم 5(أ)(1) — General Duty Clause:\n'يجب على كل صاحب عمل توفير مكان عمل خالٍ من المخاطر المعروفة التي تسبب وفاة أو أذى جسدياً خطيراً'\n\nالأهمية: يُطبَّق حتى في غياب معيار OSHA محدد للخطر.\n\nشروط التطبيق الأربعة:\n1. الخطر معروف في الصناعة\n2. يُسبب ضرراً جسيماً محتملاً\n3. يوجد وسيلة عملية للتحكم فيه\n4. لم يتخذ صاحب العمل الإجراء الكافي\n\nمثال: آلة جديدة لا يوجد معيار محدد لها — لكن General Duty Clause ينطبق إذا كان الخطر واضحاً.",tip:"General Duty Clause سؤال متقدم — إجابته الدقيقة تُميزك عن غيرك كثيراً."},
+{q:"ما هو PEL وكيف يختلف عن TLV في مصانع البلاستيك؟",a:"PEL (Permissible Exposure Limit):\n• تُصدره OSHA — قانوني وملزم\n• يُحدَّث ببطء\n\nTLV (Threshold Limit Value):\n• تُصدره ACGIH — مرجع علمي أحدث\n• يُحدَّث سنوياً — غير ملزم قانونياً\n\nأنواع كلاهما:\n• TWA: متوسط 8 ساعات | STEL: 15 دقيقة | Ceiling: لا يُتجاوز أبداً\n\nأمثلة في مصانع البلاستيك:\n• Toluene: PEL = 200 ppm | TLV-TWA = 20 ppm (أكثر صرامة بـ 10 مرات!)\n• Vinyl Chloride: PEL = 1 ppm (مسرطن)\n\nالتوصية: استخدم القيمة الأكثر صرامة دائماً.",tip:"Toluene TLV أكثر صرامة بـ10 مرات من PEL — هذا الفارق يُثبت معرفتك المحدّثة."},
+{q:"ما هي حقوق العمال وفق OSHA؟",a:"حقوق العمال الأساسية:\n\n1. Right to a Safe Workplace: بيئة خالية من المخاطر المعروفة\n2. Right to Know: معرفة المواد الخطرة — SDS متاحة دائماً\n3. Right to Training: تدريب مجاني باللغة المفهومة\n4. Right to Report: إبلاغ دون خوف من الانتقام\n5. Right to Refuse: رفع العمل عند خطر داهم على الحياة\n6. Anti-Retaliation: الفصل بسبب الإبلاغ = مخالفة قانونية صريحة\n\nمتطلب عملي:\nنشر ملصق OSHA 'It's The Law' في مكان بارز يراه جميع العمال",tip:"إظهار معرفتك بحقوق العمال يُثبت توازنك بين حماية المصنع والإنسان."}
+],
+ch3:[
+{q:"ما هو ISO 45001 وكيف يختلف عن OHSAS 18001؟",a:"ISO 45001:2018: أول معيار دولي لنظام إدارة السلامة والصحة المهنية من ISO.\n\nالفروق الجوهرية:\n• الهيكل: ISO 45001 يستخدم HLS المتوافق مع ISO 9001 و14001\n• التكامل: سهل الدمج مع الجودة والبيئة في نظام IMS\n• مشاركة العمال: البند 5.4 يُلزم بالتشاور الفعلي\n• Opportunities: ISO 45001 يُدمج مفهوم الفرص جانب المخاطر\n\nالوضع الحالي:\n• ISO 45001 = المعيار الدولي المعتمد\n• OHSAS 18001 = مُلغى رسمياً مارس 2021 — شهاداته لا تُقبل",tip:"OHSAS 18001 مُلغى نهائياً — التأكيد على هذا يُثبت أن معرفتك محدّثة."},
+{q:"ما هي البنود العشرة لـ ISO 45001؟",a:"هيكل ISO 45001:\n\n1. Scope\n2. Normative References\n3. Terms and Definitions\n4. Context of the Organization:\n   4.1 فهم المنظمة وسياقها\n   4.2 احتياجات أصحاب المصلحة\n   4.3 نطاق النظام\n   4.4 نظام إدارة OH&S\n5. Leadership: التزام + سياسة + أدوار + مشاركة العمال\n6. Planning: تحديد المخاطر + الأهداف\n7. Support: موارد + كفاءة + توعية + تواصل\n8. Operation: تطبيق + إدارة تغيير + مقاولون + طوارئ\n9. Performance Evaluation: مراقبة + تدقيق + مراجعة إدارة\n10. Improvement: NCRs + إجراءات تصحيحية + تحسين مستمر",tip:"حفظ البنود العشرة مع مثال عملي من المصنع لكل بند يُثبت إلماماً كاملاً."},
+{q:"ما هو PDCA Cycle وكيف يرتبط ببنود ISO 45001؟",a:"PDCA هو الأساس الفلسفي لـ ISO 45001:\n\nPlan (البنود 4,5,6):\n• تحليل السياق، وضع الأهداف والخطط، تحديد المخاطر والفرص\n\nDo (البنود 7,8):\n• توفير الموارد، التدريب، تطبيق الإجراءات\n\nCheck (البند 9):\n• قياس الأداء، التدقيق الداخلي، مراجعة الإدارة\n\nAct (البند 10):\n• معالجة NCRs، إجراءات تصحيحية، تحسين مستمر\n\nالدورة لا تنتهي — كل دورة تُنتج نظاماً أفضل.",tip:"ربط كل بند ISO بخطوة من PDCA يُثبت فهماً متكاملاً حقيقياً للنظام."},
+{q:"ما الفرق بين Internal Audit و Management Review؟",a:"Internal Audit (البند 9.2):\n• يُجريه مدققون مدربون\n• يتحقق من التطبيق الفعلي\n• يكشف عن Non-Conformities\n• مخرجاته: تقرير تدقيق + NCRs\n\nManagement Review (البند 9.3):\n• يُجريها الإدارة العليا\n• تراجع أداء النظام الكلي\n• تقرر تغييرات استراتيجية\n• مخرجاتها: قرارات تحسين + تخصيص موارد\n\nالفرق الجوهري:\nAudit = التحقق من التطبيق\nManagement Review = القرار الاستراتيجي",tip:"في المقابلة: أوضح أنك تُعدّ تقرير الـ Audit وتُقدّمه للإدارة كمدخل للـ Management Review."},
+{q:"ما هي متطلبات Competence وفق ISO 45001؟",a:"البند 7.2 — Competence:\nالتأكد من أن العاملين يمتلكون كفاءة كافية بناءً على:\n• التعليم (Education)\n• التدريب (Training)\n• الخبرة (Experience)\n\nأدوات التطبيق:\n• Training Needs Analysis: تحديد احتياجات كل وظيفة\n• Training Matrix: جدول (وظيفة × تدريب مطلوب × تاريخ انتهاء)\n• Training Records: سجلات موثقة لكل موظف\n• Competency Assessment: اختبار معرفي + تقييم عملي\n\nأمثلة في مصانع البلاستيك:\n• مشغل البثق: LOTO + Chemical Safety + Emergency\n• عامل الطباعة: SDS + Solvent Safety + Fire Prevention",tip:"Training Matrix هي الأداة الأساسية — اذكرها بالاسم واشرح كيف تُعدّها وتحافظ عليها."}
+],
+ch4:[
+{q:"ما هي خطوات تقييم المخاطر الخمس؟",a:"خطوات Risk Assessment:\n\n1. تحديد المخاطر: جولات ميدانية + سجلات حوادث + استشارة عمال + SDS\n2. تحديد من قد يتضرر وكيف: عمال مباشرون، مقاولون، زوار\n3. تقييم المخاطر وتحديد الأولويات:\n   Risk = Likelihood × Severity\n   مصفوفة 5×5\n4. تطبيق إجراءات التحكم وفق الهرم:\n   Eliminate → Substitute → Engineer → Admin → PPE\n5. التوثيق والمراجعة الدورية:\n   سنوياً أو عند تغيير العمليات\n\nأمثلة من مصانع البلاستيك:\n• RA لخط البثق: حرارة + ميكانيكية + كيميائية\n• RA لقسم الطباعة: أبخرة + كهرباء + حريق",tip:"اذكر أن RA تشمل مشاركة العمال أنفسهم في التحديد — أفضل الممارسات."},
+{q:"ما هي مصفوفة المخاطر 5×5 وكيف تستخدمها؟",a:"Risk Matrix 5×5:\n\nLikelihood: 1=Rare | 2=Unlikely | 3=Possible | 4=Likely | 5=Almost Certain\nSeverity: 1=Negligible | 2=Minor | 3=Moderate | 4=Major | 5=Catastrophic\n\nRisk Score = L × S\n\nالتصنيف:\n1-4 → Low (أخضر): إجراءات روتينية\n5-9 → Medium (أصفر): تحسينات مخططة\n10-16 → High (برتقالي): إجراء فوري خلال أسبوع\n17-25 → Critical (أحمر): إيقاف فوري حتى المعالجة\n\nمثال تطبيقي — بثق PVC بدون تهوية:\nL=4, S=4 → Risk Score=16 → High Risk → إجراء فوري = تركيب LEV",tip:"ارسم المصفوفة على الورق أثناء الإجابة — التوضيح البصري يُقنع المحاور أكثر من الكلام."},
+{q:"ما هو FMEA وكيف يُطبَّق في مصانع البلاستيك؟",a:"FMEA: Failure Mode and Effects Analysis\nتحليل أوضاع الإخفاق وتأثيراتها.\n\nمعادلة RPN:\nRPN = Severity × Occurrence × Detection (كل من 1-10)\n\nمثال في مصنع أنابيب البلاستيك:\nالمكون: صمام درجة الحرارة في البثق\nFailure Mode: عدم الاستجابة للحرارة الزائدة\nEffect: ارتفاع ضغط + غازات + حريق محتمل\nS=9, O=3, D=5 → RPN=135 (عالٍ جداً)\n\nالإجراء:\n• فحص دوري أسبوعي للصمام\n• تركيب صمام احتياطي\n\nبعد الإجراء: S=9, O=2, D=2 → RPN=36 (مقبول)",tip:"FMEA مع حساب RPN يُثبت أنك تفكر كـ Risk Engineer وليس Safety Officer فقط."},
+{q:"ما هو Dynamic Risk Assessment ومتى تستخدمه؟",a:"Dynamic Risk Assessment (DRA): تقييم المخاطر اللحظي عند تغيّر الظروف.\n\nأداة SLAM للـ DRA السريع:\nS - Stop: أوقف وتأمّل\nL - Look: ابحث عن المخاطر الجديدة\nA - Assess: قيّم سريعاً\nM - Manage: اتخذ إجراءً\n\nمتى تستخدمه:\n• اكتشاف تسرب غير متوقع أثناء الصيانة\n• ظهور غاز في منطقة عمل\n• تغيير طارئ في مسار العمل\n• أرضية رطبة غير متوقعة\n\nالفرق:\nStatic RA = قبل العمل\nDynamic RA = أثناء العمل عند تغيّر الظروف",tip:"DRA يُثبت أنك تفكر استباقياً حتى أثناء التنفيذ — مهارة عالية القيمة."}
+],
+ch5:[
+{q:"ما هي طرق تحديد المخاطر في مصانع البلاستيك؟",a:"أساليب تحديد المخاطر:\n\n1. Walkthrough Survey: الجولة الميدانية — الأكثر فعالية\n2. Safety Checklists: قوائم مرجعية لكل منطقة وآلة\n3. JSA: تحليل خطوة بخطوة لكل مهمة\n4. Incident & Near Miss Analysis: تحليل سجلات الحوادث\n5. Worker Consultation: العمال يعرفون مخاطر عملهم\n6. HAZOP: للعمليات الكيميائية المعقدة\n7. SDS Review: مخاطر المواد الكيميائية\n8. Manufacturer Manuals: أدلة الآلات\n\nالمزيج الأمثل في مصانع البلاستيك:\nجولات ميدانية + JSA + SDS Review + تحليل Near Miss",tip:"استخدام طرق متعددة يُعطي صورة أشمل ويمنع ثغرات في تحديد المخاطر."},
+{q:"ما هي تصنيفات المخاطر في مصانع العبوات؟",a:"تصنيفات المخاطر الرئيسية:\n\n1. Physical Hazards:\n• حرارة: 150-280°C خطوط البثق\n• ضوضاء: 85-95 dB الآلات\n• إضاءة غير كافية، اهتزازات\n\n2. Chemical Hazards:\n• أبخرة PVC/PP عند الانصهار\n• مذيبات الطباعة: Toluene, MEK, IPA\n• أحبار الطباعة ومواد التنظيف\n\n3. Mechanical Hazards:\n• أجزاء دوارة وخطر التشابك\n• ضغط هيدروليكي وهواء مضغوط\n\n4. Ergonomic Hazards:\n• رفع بكرات ثقيلة وحركات متكررة\n\n5. Electrical Hazards:\n• لوحات كهربائية وArc Flash\n\n6. Fire & Explosion:\n• مذيبات الطباعة القابلة للاشتعال",tip:"التصنيف المنهجي يُثبت أنك تفكر بشكل شامل ولا تنسى أي فئة من المخاطر."}
+],
+ch6:[
+{q:"ما هو هرم التحكم في المخاطر؟",a:"Hierarchy of Controls (من الأعلى فعالية للأدنى):\n\n1. Elimination: إزالة الخطر تماماً\nمثال: التحول من PVC لـ LDPE — يُزيل خطر HCl\n\n2. Substitution: استبدال بأقل ضرراً\nمثال: استبدال Toluene بحبر مائي\n\n3. Engineering Controls: عزل هندسي\nمثال: LEV فوق البثق + حواجز على الآلات\n\n4. Administrative Controls: تغيير طريقة العمل\nمثال: تدوير عمال + إجراءات مكتوبة SOP + تدريب\n\n5. PPE — الأضعف:\nمثال: قناع + قفازات + نظارة\n\nالمبدأ الجوهري:\nPPE = خط الدفاع الأخير وليس الأول!\nالتحكم الهندسي يُلغي الخطر — PPE يُقلل التعرض فقط",tip:"الخطأ الأكبر: التسرع لـ PPE مباشرة — المحاور يُقيمك تحديداً على هذا الفهم."},
+{q:"أعطِ أمثلة من مصنع أنابيب معجون الأسنان لكل مستوى من الهرم.",a:"الخطر: أبخرة PVC في خط البثق\n\n1. Elimination:\nالانتقال من PVC إلى LDPE أو PE — يُزيل المشكلة من أساسها\n\n2. Substitution:\nاستخدام مضافات PVC أقل سمية\n\n3. Engineering Controls:\n• LEV مباشرة فوق Die Head\n• حواجز حرارية على الأسطح الساخنة\n• نظام إنذار حراري تلقائي\n\n4. Administrative Controls:\n• تحديد مدة تعرض: 2 ساعة/وردية\n• تدوير عمال كل ساعتين\n• SOP مكتوب للتشغيل\n• تدريب شهري على مخاطر PVC\n\n5. PPE:\n• قناع نصف الوجه + فلتر P100/OV\n• نظارات سلامة\n• قفازات حرارية NOMEX",tip:"إجابة بأمثلة حقيقية من نفس خط الإنتاج تُثير إعجاب المحاور فوراً."}
+],
+ch7:[
+{q:"ما هو JSA وما خطواته الأربع؟",a:"JSA: تحليل منهجي لكل خطوة في مهمة لتحديد المخاطر وإجراءات التحكم.\n\nالخطوات الأربع:\n1. اختيار المهمة: الأعلى خطورة أولاً، المهام الجديدة، ذات سجل حوادث\n2. تقسيم المهمة لخطوات: 4-10 خطوات بالترتيب الزمني\n3. تحديد المخاطر في كل خطوة: جسدية، كيميائية، ميكانيكية\n4. وضع إجراءات التحكم: وفق هرم التحكم\n\nمثال — JSA لتنظيف رأس البثق:\nخطوة 1: إيقاف الآلة → LOTO\nخطوة 2: انتظار التبريد 30 دقيقة → قياس درجة الحرارة\nخطوة 3: إزالة المادة الساخنة → قفازات حرارية + Face Shield",tip:"احضر JSA عينة حقيقية من تجربتك — إثبات القدرة العملية يُقنع المحاور."},
+{q:"ما الفرق بين JSA و SOP و Risk Assessment؟",a:"Risk Assessment:\n• الغرض: تحديد وتقييم المخاطر في منطقة أو نشاط\n• النطاق: أوسع وأشمل، مستوى استراتيجي\n\nJSA:\n• الغرض: تحليل خطوة بخطوة لمهمة محددة\n• النطاق: أضيق وأكثر تفصيلاً، قبل تنفيذ المهمة\n\nSOP:\n• الغرض: توثيق الطريقة الصحيحة والآمنة\n• النطاق: مرجع يومي للعمال\n\nالعلاقة المنطقية:\nRA تُحدد الخطر ← JSA تُحلل المهمة ← SOP توثق الطريقة الآمنة",tip:"هذه الأدوات متكاملة وليست بديلة — فهم علاقتها يُظهر نضجاً مهنياً واضحاً."}
+],
+ch8:[
+{q:"ما هي خطوات التحقيق في الحوادث؟",a:"خطوات التحقيق الثماني:\n1. الاستجابة الفورية: إسعاف المصابين + تأمين الموقع + حفظ الأدلة\n2. الإبلاغ الفوري: إخطار HSE والإدارة\n3. جمع الأدلة: تصوير شامل + رسم مخطط + جمع أدلة مادية\n4. مقابلة الشهود: كل شاهد على حدة، أسئلة مفتوحة\n5. إعادة بناء الحادثة: Timeline زمني\n6. تحليل الأسباب الجذرية: 5 Why أو Fishbone\n7. صياغة التوصيات: محددة + مسؤول + موعد\n8. متابعة التنفيذ وإغلاق الملفات",tip:"تصوير الموقع وحفظ الأدلة قبل أي تحريك — يُثبت خبرتك الميدانية الحقيقية."},
+{q:"ما هي عناصر تقرير الحادثة الكامل؟",a:"عناصر تقرير الحادثة:\n\nالقسم 1 — البيانات الأساسية:\nتاريخ، وقت، مكان، اسم المصاب، المهمة، نوع الإصابة\n\nالقسم 2 — وصف الحادثة:\nرواية تفصيلية بالتسلسل الزمني والظروف البيئية\n\nالقسم 3 — الأسباب المباشرة:\nالفعل غير الآمن + الحالة غير الآمنة\n\nالقسم 4 — الأسباب الجذرية:\nنتائج 5 Why أو Fishbone\n\nالقسم 5 — الخسائر:\nإصابات + تلف معدات + توقف إنتاج بالتكلفة\n\nالقسم 6 — التوصيات:\nكل إجراء + المسؤول + الموعد + تاريخ الإغلاق\n\nالتوقيعات الإلزامية:\nمحقق + مدير القسم + مدير HSE + مدير المصنع",tip:"تقرير ناقص الأسباب الجذرية أو ناقص التوقيعات = غير مكتمل وغير مفيد."}
+],
+ch9:[
+{q:"ما هو 5 Why وكيف تُطبّقه في تحليل حادثة؟",a:"أداة 5 Why: تسأل 'لماذا؟' خمس مرات للوصول للسبب الجذري.\n\nمثال من مصنع البلاستيك:\nالحادثة: إصابة عامل في خط البثق\n\nلماذا 1: لأنه لمس جزءاً دوّاراً\nلماذا 2: لأن الحاجز كان مفتوحاً\nلماذا 3: لأنه فتحه لتنظيف الآلة بدون إيقاف\nلماذا 4: لأنه لم يكن يعرف إجراء LOTO\nلماذا 5: لأنه لم يحصل على تدريب LOTO عند توظيفه\n\nالسبب الجذري: إخفاق في برنامج التدريب الأساسي\n\nالإجراء التصحيحي الصحيح:\nليس 'إصلاح الحاجز' فحسب، بل إعادة تصميم برنامج Onboarding لضم LOTO إلزامياً",tip:"السبب الجذري دائماً في النظام وليس الفرد — هذه الفلسفة تُثبت نضجك المهني."},
+{q:"ما هو Fishbone Diagram وكيف تستخدمه؟",a:"Fishbone (Ishikawa): أداة تُنظّم الأسباب في 6 فئات (6M).\n\nالفئات الست:\n1. Man: مهارات، تدريب، إهمال، تعب\n2. Machine: صيانة، تصميم، أعطال\n3. Method: إجراءات، طرق عمل\n4. Material: جودة المواد، خصائصها\n5. Measurement: دقة الأجهزة، معايرتها\n6. Environment: حرارة، رطوبة، إضاءة\n\nمثال — حريق في قسم الطباعة:\nMan: عامل لم يُدرَّب على Solvents\nMachine: مروحة التهوية معطلة\nMethod: إجراء تخزين قديم\nMaterial: Toluene عالي التبخر\nMeasurement: كاشف غاز لم يُعايَر\nEnvironment: حرارة مرتفعة + تهوية ضعيفة",tip:"ارسم Fishbone أمام المحاور — التواصل البصري يُثبت قدرتك على التعليم والشرح."}
+],
+ch10:[
+{q:"ما هو Near Miss وما أهمية نظام الإبلاغ عنه؟",a:"Near Miss: حادثة كادت تقع لكن لم تُسبب ضرراً.\n\nأمثلة: عامل ينزلق ويمسك الدرابزين | مذيب يتسرب والكاشف يُنبّه | غطاء يسقط ولا يصيب أحداً\n\nلماذا الإبلاغ حيوي:\n• وفق هاينريش: 600 Near Miss → حادثة خطيرة واحدة\n• معالجة Near Miss = منع الحوادث الكبرى\n• يُظهر الأنماط ويُحدد المناطق الأشد خطورة\n\nعوائق الإبلاغ:\n• خوف من العقوبة → حل: No-Blame Policy\n• 'ما حدث شيء' → حل: توعية بأهمية كل تقرير\n• إجراءات معقدة → حل: نموذج بسيط على الموبايل\n\nمؤشر الثقافة:\nارتفاع تقارير Near Miss = ثقافة سلامة قوية وليس كثرة مشاكل",tip:"'ارتفاع Near Miss علامة صحة' — هذا المفهوم يُظهر نضجاً ثقافياً نادراً في المتقدمين."},
+{q:"كيف تبني نظام Near Miss Reporting فعّالاً؟",a:"خطوات بناء النظام:\n\n1. السياسة: No Blame Policy + Anonymous Option\n2. نموذج بسيط 5 حقول: التاريخ + المكان + وصف الحادثة + الخطر المحتمل + الإجراء المقترح\n3. التدريب: ماذا يُعدّ Near Miss + كيف تُبلّغ + ماذا يحدث بعد الإبلاغ\n4. الاستجابة: إقرار خلال 24 ساعة + إجراء خلال 72 ساعة\n5. التغذية الراجعة: 'بسبب تقريرك، أجرينا...'\n6. KPI: عدد تقارير/شهر يرتفع باستمرار\n\nإظهار المبلّغ ما حدث بعد تقريره = يزيد الإبلاغ 3 أضعاف",tip:"النظام الفعّال يزيد عدد التقارير — ارتفاع العدد علامة صحة وليس خطر."}
+],
+ch11:[
+{q:"ما هو نظام Permit to Work وما أنواعه؟",a:"PTW: نظام رسمي مكتوب يمنح إذناً لأعمال محددة عالية الخطورة بعد التحقق من الاحتياطات.\n\nأنواعه في مصانع البلاستيك:\n1. Hot Work Permit: لحام، قطع، طحن — حيوي جانب مذيبات الطباعة\n2. Cold Work Permit: أعمال ميكانيكية وكهربائية\n3. Confined Space Entry Permit: الصهاريج وقنوات الصرف\n4. Work at Height Permit: أعمال فوق 1.8 متر\n5. Electrical Isolation Permit: أعمال كهربائية على الجهد\n6. Excavation Permit: حفريات\n\nمبدأ لا تفاوض فيه:\nعمل خطر بدون تصريح = مخالفة إجرائية خطيرة",tip:"اذكر أن PTW ليس ورقة بيروقراطية بل درع وقائي يمنع الحوادث الكبرى."},
+{q:"ما هي عناصر Hot Work Permit الكامل؟",a:"عناصر Hot Work Permit:\n\nبيانات: رقم التصريح + اسم القسم + وقت البدء والانتهاء\nوصف العمل: وصف دقيق للعمل + الموقع الدقيق\nالأشخاص: المنفذ + المشرف + مُصدر التصريح\n\nقائمة التحقق الإلزامية:\n✅ قياس الغاز < 10% LEL\n✅ إزالة المواد القابلة للاشتعال 11 متر\n✅ تغطية ما لا يُزال بحصيرة لهب\n✅ طفاية CO2 جاهزة\n✅ خرطوم مياه متصل\n✅ Fire Watch مُعيَّن ومدرب\n✅ تأريض معدات اللحام\n\nبعد الانتهاء:\n• Fire Watch يبقى 60 دقيقة إضافية\n• إغلاق التصريح بتوقيع HSE",tip:"تصريح بتوقيع ناقص = غير صالح. أكد هذه النقطة بوضوح في المقابلة."}
+],
+ch12:[
+{q:"ما هو LOTO وكيف تُطبّقه على خط بثق؟",a:"LOTO: Lockout/Tagout — عزل الطاقة الخطرة أثناء الصيانة.\n\nخطوات LOTO الست:\n1. Notify: أبلغ جميع العمال المتأثرين\n2. Identify: حدد جميع مصادر الطاقة:\n   • كهربائية (محرك) + حرارية (عناصر تسخين) + هيدروليكية + هوائية + ميكانيكية\n3. Isolate: أوقف كل مصدر\n4. Lockout: ضع قفل شخصي على كل مصدر\n5. Tagout: ضع Tag تحذيري على كل قفل\n6. Verify — الأهم:\n   • حاول تشغيل الآلة (لا تستجيب ✓)\n   • قِس الجهد = صفر ✓\n   • أطلق الضغط المتبقي ✓\n\nGroup LOTO:\nعدة عمال = Hasp مشترك + كل عامل يضع قفله الشخصي",tip:"الخطوة 6 (Verify) هي الأهم والأكثر إهمالاً — الطاقة المعزولة على الورق لا تكفي."},
+{q:"ما الفرق بين Lockout و Tagout؟",a:"Lockout:\n• قفل فيزيائي صلب يمنع التشغيل مادياً\n• مفتاحه الشخصي عند العامل المنفذ فقط\n• الأفضل دائماً — يُستخدم كلما أمكن\n\nTagout:\n• بطاقة تحذيرية فقط — لا تمنع التشغيل ميكانيكياً\n• أضعف من Lockout\n• يُستخدم فقط عند استحالة تطبيق Lockout\n• يتطلب احتياطات تعويضية إضافية\n\nالقاعدة الذهبية:\nLockout = دائماً الأفضل\nTagout = الملاذ الأخير عند الاستحالة",tip:"'Tagout وحده أضعف' — هذا التمييز يُظهر عمق معرفتك وليس حفظ تعريفات فقط."}
+],
+ch13:[
+{q:"ما هي مخاطر الكهرباء الرئيسية في مصانع البلاستيك؟",a:"المخاطر الكهربائية الرئيسية:\n\n1. Electric Shock: الوفاة تبدأ من 50 mA — المسار الأخطر: يد → قلب → قدم\n2. Arc Flash: إشعاع حراري 35,000°F في ثوانٍ — يُسبب حروقاً بالغة\n3. Electrical Fire: ماسات + مذيبات قابلة للاشتعال = كارثة\n4. Static Electricity: الأفلام البلاستيكية تُولّد Static يُشعل أبخرة المذيبات\n\nإجراءات الوقاية:\n• LOTO قبل أي عمل كهربائي\n• Arc Flash PPE عند فتح اللوحات\n• Static Eliminators + تأريض آلات الطباعة\n• فحص دوري للتوصيلات",tip:"Arc Flash هو الأقل معرفة والأشد خطورة في المصانع — اذكره أولاً دائماً."}
+],
+ch14:[
+{q:"ما هي أنواع حواجز الأمان على الآلات؟",a:"أنواع Machine Guards:\n\n1. Fixed Guards: ثابتة — حماية دائمة مثل غطاء السير\n2. Interlocked Guards: الآلة توقف عند الفتح — الأفضل للوصول المتكرر\n3. Adjustable Guards: تُضبط حسب القطعة — أقل حماية\n4. Safety Light Curtains: ستائر ضوئية تُوقف عند قطع الشعاع\n5. Two-Hand Controls: يدان معاً للتشغيل — يمنع إدخال اليد\n6. Safety Fences: حواجز محيطية مع بوابات Interlocked\n\nمتطلبات عامة:\n• لا تُزال دون أداة\n• يُعاد تركيبها قبل التشغيل\n• تُفحص قبل كل وردية\n• أي تلف يُبلَّغ فوراً",tip:"Interlocked Guard الأفضل لأنه يُجبر على السلامة بدون الاعتماد على وعي العامل."}
+],
+ch15:[
+{q:"ما هي تصنيفات الحرائق ومواد الإطفاء المناسبة؟",a:"تصنيفات الحرائق:\n\nClass A — مواد صلبة (بلاستيك، ورق):\nإطفاء: ماء أو ABC Dry Chemical أو CO2\n\nClass B — سوائل قابلة للاشتعال (Toluene, MEK):\nإطفاء: CO2 أو BC/ABC Dry Chemical أو Foam\nتحذير: لا ماء أبداً — يُوسّع الحريق!\n\nClass C — كهربائي:\nإطفاء: CO2 أو ABC Dry Chemical فقط\nتحذير: لا ماء ولا رغوة — خطر الصعقة!\n\nClass D — معادن: Class D Powder خاص\n\nالطفاية المثالية في مصانع البلاستيك:\n• الإنتاج: ABC Dry Chemical\n• قسم الطباعة: CO2 (لا يُتلف الآلات)\n• الكهرباء: CO2",tip:"'لا ماء على Class B وC' — خطأ قاتل يُسأل عنه في كل مقابلة HSE."},
+{q:"ما أسباب الحرائق الأكثر شيوعاً في مصانع الطباعة؟",a:"أسباب الحرائق في مصانع الطباعة:\n\n1. تراكم أبخرة المذيبات:\n• Toluene Flash Point = 4°C — يشتعل في درجة الغرفة!\n• تهوية غير كافية + مصدر إشعال = حريق فوري\n\n2. الكهرباء الساكنة:\n• الأفلام البلاستيكية تُولّد Static\n• شرار صغير يُشعل الأبخرة\n\n3. الأعطال الكهربائية:\n• ماسات في الموتورات\n\n4. التدخين في المناطق المحظورة\n\n5. خزانات مذيبات مفتوحة أو متسربة\n\n6. الاحتكاك الميكانيكي من سيور بدون تشحيم",tip:"Flash Point = 4°C للـ Toluene يشرح لماذا مصانع الطباعة عالية الخطورة جداً."}
+],
+ch16:[
+{q:"ما هي مكونات خطة الاستجابة للطوارئ ERP؟",a:"مكونات ERP:\n\n1. سيناريوهات مغطاة: حريق + انسكاب كيميائي + إصابة جماعية + انفجار\n2. فريق الطوارئ ERT:\n   • Emergency Commander + Fire Team + First Aid Team + Evacuation Wardens\n3. إجراءات كل سيناريو: تنبيه + إخلاء + نقطة تجمع + Roll Call\n4. الموارد: إنذار + طفايات + AED + Spill Kit + Emergency Shower\n5. جهات الاتصال: دفاع مدني + إسعاف + شركة غاز\n6. التمارين: ربع سنوي + تقييم بعد كل تمرين\n\nERP بدون تمرين منتظم = ورق لا قيمة له في الأزمة",tip:"التمارين الدورية مع تقييم ما حدث هي الجزء الأهم في ERP."},
+{q:"ما هي إجراءات الإخلاء الصحيحة عند الحريق؟",a:"إجراءات الإخلاء:\n\nعند الإنذار:\n• أوقف كل شيء فوراً\n• لا تجمع أشياء شخصية أبداً\n• اتجه لأقرب مخرج طوارئ — لا مصاعد!\n• أغلق الأبواب خلفك (يُبطئ الدخان)\n\nأثناء الإخلاء:\n• ابتعد عن الدخان دائماً\n• إذا ملأ الدخان: زحف على الأرض\n• الباب الساخن = لا تفتحه — ابحث عن مسار بديل\n\nعند نقطة التجمع:\n• لا تعود للمبنى مهما كان السبب\n• أبلغ Warden بوجودك\n• Roll Call لحصر الجميع\n\nالقانون الذهبي:\nلا تعود للمبنى أبداً — حتى لو نسيت شيئاً ثميناً",tip:"'لا تعود للمبنى أبداً' — هذه القاعدة تُنقذ حياة الفريق الثاني بعد الإخلاء."}
+],
+ch17:[
+{q:"ما تعريف Confined Space وما أنواعه؟",a:"Confined Space: مكان يتسع للإنسان، فتحات دخول/خروج محدودة، لم يُصمَّم للإشغال المستمر.\n\nنوعان:\n\nPermit-Required Confined Space (يحتاج تصريح):\n• جو خطر: O2 < 19.5% أو > 23.5% أو غاز خطر\n• خطر الغمر بمواد\n• جدران تتضيق للداخل\n\nNon-Permit Confined Space:\n• لا يحتوي على المخاطر أعلاه\n\nأمثلة في مصانع البلاستيك:\n• صهاريج تخزين المذيبات والحبر\n• خزانات مياه التبريد\n• أحواض معالجة مياه الصرف\n• قنوات التصريف الكبيرة\n\nالخطأ القاتل: 'الصهريج فارغ' لا يعني آمناً — المذيبات المتبقية تُطلق أبخرة مميتة",tip:"Permit-Required vs Non-Permit — هذا التمييز جوهري ويُسأل كثيراً في المقابلات."},
+{q:"ما هي إجراءات دخول Confined Space؟",a:"الإجراءات الكاملة:\n\nقبل الدخول:\n1. Confined Space Entry Permit موقع\n2. LOTO على جميع مصادر الطاقة\n3. قياس الجو:\n   O2: 19.5-23.5% ✓ | LEL < 10% ✓ | CO < 25 ppm ✓\n4. تهوية + إعادة قياس\n5. تعيين: Entrant + Attendant + Entry Supervisor\n\nأثناء الدخول:\n• Entrant يحمل Gas Detector محمول\n• Attendant يبقى خارجاً دائماً\n• حبل إنقاذ + اتصال مستمر\n\nعند الطوارئ:\n• Attendant لا يدخل للإنقاذ!\n• يستدعي فريق الإنقاذ الخارجي\n• Tripod + Retrieval Line للإخراج",tip:"Attendant لا يدخل للإنقاذ — هذه القاعدة تمنع ضحايا الإنقاذ غير المُخطط."}
+],
+ch18:[
+{q:"ما هي متطلبات العمل على الارتفاعات؟",a:"Work at Height — أي عمل يُشكّل فيه السقوط خطراً على الصحة.\n\nهرم التحكم:\n1. تجنب العمل على ارتفاع: هل يمكن من الأرض؟\n2. Collective Protection: Guardrails (1م+) + Toe Boards + Safety Nets\n3. PPE: Full Body Harness + Energy Absorber Lanyard\n   Anchor Point > 15 kN\n\nمتطلبات إضافية:\n• Work at Height Permit\n• Scaffold مُفحوصة ومُعتمدة مع Inspection Tag\n• سلالم بزاوية 75° (قاعدة 1:4)\n\nأمثلة في مصانع البلاستيك:\n• صيانة الآلات العالية\n• تنظيف خزانات المواد\n• صيانة أنظمة التهوية في السقف",tip:"Anchor Point يتحمل 15 kN — رقم محدد يُثبت معرفتك الهندسية التفصيلية."}
+],
+ch19:[
+{q:"ما هي مخاطر الحفريات وطرق التحكم؟",a:"مخاطر الحفريات:\n1. Cave-in: الأكثر قتلاً — طن تربة يقتل في ثوانٍ\n2. Falls: السقوط في الحفرة\n3. Struck-by Equipment: معدات حفر بجانب العمال\n4. Hazardous Atmosphere: غاز متراكم أو نقص أكسجين\n5. Utility Strikes: أنابيب غاز أو كهرباء مدفونة\n\nطرق التحكم:\n• Sloping: ميل الجدران بزاوية آمنة 1.5H:1V\n• Shoring: أعمدة وألواح تثبت الجدران\n• Shielding (Trench Box): صندوق معدني يعمل داخله العمال\n\nالحواجز المحيطية: 60 سم من الحافة + إضاءة ليلية",tip:"Cave-in في التربة الرملية المصرية خطر حقيقي جداً — اذكر طبيعة التربة المحلية."}
+],
+ch20:[
+{q:"ما هي تصنيفات المواد الكيميائية الخطرة في مصانع البلاستيك؟",a:"التصنيفات الرئيسية:\n\n1. Flammable: Toluene (4°C), MEK (-9°C), Acetone (-20°C) — تشتعل في الغرفة!\n2. Toxic: VCM في PVC — مسرطن يُسبب سرطان الكبد | Isocyanates — تحسس تنفسي\n3. Corrosive: محاليل تنظيف قلوية + أحماض معالجة السطح\n4. Carcinogenic: Vinyl Chloride + Benzene (تجنبه تماماً) + Formaldehyde\n5. Reactive: مواد Polymerization البادئة + Peroxides\n\nنهج COSHH: تقييم تعرض كل عامل + مراقبة بيئية + مراقبة صحية دورية",tip:"ذكر VCM وسرطان الكبد يُثبت معرفة تخصصية بصناعة PVC تحديداً."},
+{q:"كيف تتعامل مع انسكاب كيميائي في مصنع الطباعة؟",a:"الاستجابة للانسكاب:\n\n1. قيّم: ما المادة؟ (SDS فوراً) + الحجم + مصابون؟\n2. أبلغ: HSE والمشرف فوراً + أبعد الجميع\n3. أطفئ مصادر الإشعال: كهرباء + تدخين\n4. شغّل التهوية\n\nصغير (< 4 لتر):\n• PPE: Nitrile + Goggles + Half-Face OV\n• امتص من الحواف للمركز بـ Absorbent\n• نفايات خطرة مُعلَّمة\n\nكبير: إخلاء + فريق طوارئ متخصص\n\nالقاعدة الذهبية:\nدائماً SDS القسم 6 (Release) و8 (PPE) = مرجعك الأول",tip:"SDS أولاً عند أي انسكاب — مواد مختلفة تتطلب استجابات مختلفة تماماً."}
+],
+ch21:[
+{q:"ما هو GHS وما هي رموز المخاطر التسعة؟",a:"GHS: نظام دولي موحد لتصنيف وتوسيم المواد الكيميائية.\n\nرموز الخطر التسعة:\n1. Exploding Bomb: متفجرات\n2. Flame: قابلة للاشتعال\n3. Flame on Circle: مؤكسدة\n4. Skull & Crossbones: سامة حاداً بشدة\n5. Exclamation Mark: ضارة ومهيجة\n6. Health Hazard: مسرطنة ومطفرة\n7. Corrosion: مسببة للتآكل\n8. Environment: خطر بيئي مائي\n9. Gas Cylinder: غازات مضغوطة\n\nمكونات بطاقة GHS:\n• اسم المادة + Signal Word (Danger/Warning)\n• H-Codes: توصف الخطر\n• P-Codes: توصف الوقاية\n• رمز الخطر (Pictogram) + بيانات المورد",tip:"حفظ الـ 9 رموز مع مثال لكل منها سؤال اختبار في كثير من مقابلات HSE."},
+{q:"ما هو SDS وما هي أقسامه الـ 16؟",a:"SDS: Safety Data Sheet — 16 قسماً وفق GHS:\n\n1. Identification: اسم المادة والشركة\n2. Hazard Identification: تصنيف المخاطر\n3. Composition/Ingredients: المكونات\n4. First Aid Measures: إسعافات لكل طريق تعرض\n5. Firefighting Measures: طرق الإطفاء\n6. Accidental Release: التعامل مع الانسكاب\n7. Handling & Storage: التداول والتخزين\n8. Exposure Controls/PPE: حدود التعرض والحماية\n9. Physical & Chemical Properties: Flash Point، غليان\n10. Stability & Reactivity\n11. Toxicological Info: تأثيرات حادة ومزمنة\n12. Ecological Info\n13. Disposal: التخلص الآمن\n14. Transport Info: UN Number\n15. Regulatory Info\n16. Other Information\n\nالأقسام الأهم عملياً: 2, 4, 5, 6, 7, 8",tip:"SDS متاحة فوراً لكل عامل في منطقته — إمكانية الوصول السريع حيوية جداً."}
+],
+ch22:[
+{q:"ما هي أنواع PPE في مصانع البلاستيك وكيف تختارها؟",a:"اختيار PPE يبدأ من Risk Assessment وSDS:\n\nحماية الرأس:\n• Safety Helmet Class E للكهرباء | Bump Cap للاصطدام المحدود\n\nحماية العيون:\n• Safety Glasses: جسيمات | Goggles: رذاذ كيميائي | Face Shield: مادة منصهرة\n\nحماية التنفس:\n• N95: غبار فقط\n• Half-Face + OV Cartridge: أبخرة مذيبات الطباعة\n• SCBA: طوارئ فقط\n\nحماية اليدين:\n• Nitrile: مذيبات وكيميائيات\n• NOMEX: خطوط البثق الساخنة\n• Cut Level 4+: أعمال الشفرات\n\nحماية القدمين:\n• Steel Toe: كل مناطق الإنتاج\n• Chemical Boots: مناطق الكيميائيات\n\nحماية السمع:\n• Ear Plugs NRR 27+: مناطق 85-95 dB",tip:"PPE بدون Fit Test ومعايرة = لا حماية حقيقية — اذكر هذا المبدأ."}
+],
+ch23:[
+{q:"ما هو Industrial Hygiene وما هي مراحله الأربع؟",a:"Industrial Hygiene: علم التعرف والتقييم والتحكم في عوامل بيئة العمل الضارة.\n\n4 مراحل:\n1. Anticipation: توقع المخاطر قبل بدء النشاط — SDS للمواد الجديدة\n2. Recognition: تحديد الملوثات الموجودة فعلاً\n3. Evaluation: قياس التعرض بأجهزة + مقارنة بـ OEL/TLV\n4. Control: تطبيق هرم التحكم + التحقق من الفعالية\n\nالمخاطر الرئيسية في مصانع البلاستيك:\n• كيميائية: أبخرة PVC والمذيبات\n• فيزيائية: ضوضاء وحرارة واهتزازات\n• إرغونوميكية: رفع وتكرار\n\nبرنامج Medical Surveillance:\n• فحوصات دورية لعمال المذيبات\n• اختبارات سمع لعمال الضوضاء",tip:"Industrial Hygienist يقيس ويحلل — HSE Officer يطبق — هذا الفرق مهم في الشركات الكبيرة."}
+],
+ch24:[
+{q:"ما هي مخاطر الضوضاء وبرنامج Hearing Conservation؟",a:"مصادر الضوضاء في مصانع البلاستيك:\n• آلات البثق: 85-95 dB\n• ضواغط الهواء: 85-95 dB\n• خطوط التعبئة: 80-88 dB\n\nقاعدة 3 dB:\nكل 3 dB زيادة = نصف وقت التعرض المسموح\n85 dB = 8 ساعات | 88 = 4 ساعات | 91 = 2 ساعات\n\nبرنامج Hearing Conservation:\n1. Noise Survey: قياس في كل منطقة\n2. Noise Mapping: خريطة لوّنية للمصنع\n3. Engineering: عزل الآلات الصاخبة\n4. Administrative: تدوير العمال\n5. PPE: Ear Plugs NRR 27+\n6. Audiometric Testing: فحوصات سمع سنوية\n\nBaseline Audiogram عند التوظيف + Annual Audiogram لاحقاً",tip:"قاعدة '3 dB = نصف الوقت' معادلة علمية تُثبت فهمك العلمي للضوضاء."}
+],
+ch25:[
+{q:"ما هي مخاطر الإرغونوميكس وكيف تتحكم فيها؟",a:"عوامل خطر الإرغونوميكس:\n1. التكرار: تعبئة يدوية متكررة + حركات مستمرة\n2. Awkward Postures: انحناء + رفع أذرع فوق الكتف\n3. Excessive Force: رفع بكرات ثقيلة (50-80 كيلو)\n4. Static Load: وقوف ساعات طويلة\n\nالأمراض الناتجة:\n• Carpal Tunnel Syndrome\n• Lower Back Pain\n• Rotator Cuff Injuries\n\nإجراءات التحكم:\n• Ergonomic Workstation Design\n• Coil Lifting Devices للبكرات الثقيلة\n• Anti-Fatigue Mats\n• فترات راحة: 10 دقائق كل ساعة\n• REBA Assessment لتقييم الأوضاع\n\nإحصائية مهمة: MSDs أكثر تكلفةً من الحوادث الحادة في التعبئة",tip:"REBA للتقييم العلمي وليس التخمين — استخدام أداة موحدة يُثبت منهجيتك."}
+],
+ch26:[
+{q:"ما هي متطلبات إدارة سلامة المقاولين؟",a:"Contractor Safety Management:\n\nما قبل التعاقد:\n• Pre-Qualification: TRIR, LTIR + تأمين + شهادات ISO\n• Safety Agreement ملزم في العقد\n\nقبل بدء العمل:\n• Safety Induction موثق بتوقيع\n• تحديد PPE المطلوب\n\nأثناء العمل:\n• متابعة يومية من HSE\n• مراجعة PTW قبل كل عمل خطر\n• تضمينهم في تدريبات الطوارئ\n\nبعد الانتهاء:\n• تقييم أداء السلامة\n• تحديث قاعدة بيانات المقاولين\n\nالمبدأ القاطع:\nالمقاول داخل مصنعنا = يخضع لقوانيننا 100%\nحتى لو كانت أكثر صرامة من قوانينه الخاصة",tip:"Pre-Qualification يمنع دخول مقاولين غير آمنين من البداية — الوقاية تبدأ قبل التعاقد."}
+],
+ch27:[
+{q:"ما هو Behavior Based Safety وكيف تُطبّقه؟",a:"BBS: السلامة القائمة على السلوك البشري.\n\nالمبدأ: 80-96% من الحوادث تتضمن سلوكاً غير آمن قابل للتغيير.\n\nخطوات تطبيق BBS:\n1. تحديد السلوكيات الحرجة من تحليل الحوادث\n2. تصميم بطاقة ملاحظة: 10-15 سلوكاً (Safe ✓ / At-Risk ✗)\n3. تدريب المراقبين: كيف تُلاحظ وتُعطي تغذية راجعة بنّاءة\n4. إجراء الملاحظات بدون تهديد + تغذية راجعة فورية إيجابية\n5. تحليل البيانات: %Safe لكل سلوك عبر الزمن\n6. التحسين: تركيز التدريب على السلوكيات الأضعف\n\nالهدف: رفع %Safe من 65% إلى 95%+\n\nمبدأ جوهري: BBS يُكمل النظام الهندسي — لا يحل محله",tip:"BBS يُكمل النظام ولا يستبدله — الجمع بينهما هو الحل الأمثل."}
+],
+ch28:[
+{q:"ما هي KPIs السلامة وكيف تحسب TRIR؟",a:"KPIs السلامة:\n\nLagging Indicators:\nTRIR = (إصابات قابلة للتسجيل × 200,000) ÷ ساعات عمل\nمثال: 2 إصابة ÷ 400,000 ساعة × 200,000 = TRIR 1.0\n\nLTIR = (LTI × 200,000) ÷ ساعات عمل\nLTSR = (أيام غياب × 200,000) ÷ ساعات عمل\n\nLeading Indicators:\n• جولات تفتيش شهرية (هدف 20+)\n• نسبة إغلاق الملاحظات (هدف 90%+)\n• تقارير Near Miss شهرياً (ارتفاعها جيد)\n• نسبة التدريبات (هدف 95%+)\n\nمعايير الأداء:\nTRIR < 1.0 = ممتاز في التعبئة\nTRIR 1-2 = جيد\nTRIR > 2 = يحتاج تحسيناً",tip:"تقديم TRIR بمثال حسابي بالأرقام يُثبت أنك تفهم الأرقام فعلاً وليس فقط الشعارات."}
+],
+ch29:[
+{q:"ما هي المتطلبات البيئية في مصانع البلاستيك والطباعة؟",a:"المتطلبات البيئية الرئيسية:\n\n1. إدارة النفايات الصلبة:\n• خردة بلاستيكية: إعادة تدوير\n• نفايات حبر وكيميائيات: معالجة كنفايات خطرة\n\n2. مياه الصرف الصناعي:\n• معالجة قبل الصرف + مراقبة دورية (pH, COD, BOD)\n• الالتزام بمعايير EEAA\n\n3. انبعاثات VOCs من الطباعة:\n• Carbon Adsorbers أو Thermal Oxidizers\n\n4. التخزين الآمن:\n• Containment Berms حول خزانات المذيبات\n\n5. ISO 14001:\n• نظام إدارة بيئية متكامل\n• أهداف سنوية للتحسين البيئي\n\nالتشريع المصري:\n• قانون البيئة رقم 4 لسنة 1994\n• اشتراطات جهاز شؤون البيئة EEAA",tip:"دمج ISO 14001 مع ISO 45001 في نظام IMS يُوفر الوقت والجهد ويُظهر رؤية شاملة."}
+],
+ch30:[
+{q:"ما هي أبرز مخاطر صناعة العبوات البلاستيكية؟",a:"مخاطر صناعة العبوات البلاستيكية:\n\nمخاطر البثق:\n• حرارة 200-300°C على الأسطح والمادة المنصهرة\n• أبخرة PVC/PP عند الذوبان\n• أجزاء دوارة: Screw, Drive Shaft\n• ضغط مادة منصهرة تحت ضغط عالٍ\n\nمخاطر الطباعة:\n• مذيبات عالية الاشتعال (Flash Point سالب)\n• أبخرة أحبار الطباعة\n• كهرباء ساكنة على الأفلام\n\nمخاطر التقطيع: شفرات حادة + أطراف حادة للأفلام\n\nمخاطر التعبئة: إرغونوميكس + رافعات شوكية + ضوضاء\n\nمخاطر المواد الخام:\n• غبار بودرة PVC: خطر الاستنشاق\n• مضافات البلاستيك: بعضها مشكوك في سميته",tip:"هذا الفصل يُميز من يعرف الصناعة حقاً — تفاصيل دقيقة تُثبت الخبرة الميدانية."},
+{q:"ما هي مخاطر العمل القريب من آلات بثق PVC؟",a:"مخاطر بثق PVC بالتفصيل:\n\n1. الحرارة: Barrel 160-220°C + Die Head 180-200°C\nوقاية: حواجز حرارية + قفازات NOMEX + Face Shield\n\n2. الكيمياء: PVC يُطلق HCl عند تجاوز 200°C → تهيج تنفسي حاد\nوقاية: LEV فوق Die Head + قناع OV + مراقبة الغاز\n\n3. الضغط: انسداد Die → ضغط مفاجئ → انفجار محتمل\nوقاية: Pressure Relief Valve + مراقبة ضغط مستمرة\n\n4. الأجزاء الدوارة: Feed Screw + Drive Belt → خطر التشابك\nوقاية: LOTO إلزامي + حواجز ثابتة\n\n5. الضوضاء: 85-90 dB\nوقاية: Ear Plugs إلزامية في المنطقة\n\n6. الانزلاق: مياه تبريد + بقايا مادة\nوقاية: أرضيات مضادة للانزلاق + تنظيف فوري",tip:"إجابة بكل نوع خطر ووقايته تُثبت خبرة مباشرة مع خطوط البثق الفعلية."}
+],
+ch31:[
+{q:"ما هي مخاطر عملية البثق في مصانع أنابيب البلاستيك؟",a:"مراحل البثق ومخاطر كل مرحلة:\n\nالتغذية: غبار البودرة + سقوط أجسام في Hopper\nوقاية: شافط غبار + غطاء Hopper\n\nالصهر (150-280°C): تدهور مادة → غازات + ارتفاع ضغط\nوقاية: Pressure Relief + مراقبة درجة الحرارة\n\nDie Head: انسداد → ضغط مفاجئ + انفجار + حروق\nوقاية: LOTO + Face Shield + إجراء تغيير Die مكتوب\n\nالتبريد: كهربائي (ماء + كهرباء)\nوقاية: GFCI + عزل كهربائي كامل\n\nالقطع: شفرات حادة + جسيمات طائرة\nوقاية: حاجز + نظارة سلامة",tip:"معرفة مراحل البثق مع مخاطر كل مرحلة تُثبت خبرة ميدانية حقيقية لا نظرية."}
+],
+ch32:[
+{q:"ما هي مخاطر عملية الطباعة على العبوات البلاستيكية؟",a:"مخاطر الطباعة الفليكسوغرافيكية والغرافور:\n\nالمخاطر الكيميائية:\n• Flexo: Ethanol, IPA, MEK (Flash Point منخفض جداً)\n• Gravure: Toluene, Ethyl Acetate (أشد خطورة)\n• مزمن: اعتلال كبدي وعصبي من Toluene\nوقاية: LEV + Air Monitoring + قناع OV Cartridge\n\nمخاطر الحريق:\n• Flash Point سالب + تراكم أبخرة + شرار = حريق فوري\nوقاية: Explosion-Proof Equipment + Static Eliminators\n\nمخاطر الكهرباء الساكنة:\n• الأفلام البلاستيكية تُولّد Static → يُشعل الأبخرة\nوقاية: Static Eliminator Bars على كل آلة\n\nالضوضاء: 85-92 dB → Ear Protection إلزامي\n\nالإرغونوميكس: رولات أفلام 50-80 كيلو → Lifting Devices",tip:"Toluene في Gravure Printing = خطر Flash Point 4°C + سُمية كبدية مزمنة."}
+],
+ch33:[
+{q:"ما هي اشتراطات سلامة المذيبات القابلة للاشتعال؟",a:"Flash Points الحرجة:\n• Acetone: -20°C | MEK: -9°C | Toluene: 4°C | IPA: 12°C\nكلها تشتعل في درجة حرارة الغرفة!\n\nاشتراطات التخزين:\n• خزانة سلامة FM Approved\n• تأريض (Grounding) وربط (Bonding) الأوعية\n• تهوية: 6 تغييرات هواء/ساعة\n• أوعية معدنية مُغلقة عند عدم الاستخدام\n\nمنطقة الاستخدام:\n• لا مصادر إشعال في 10 أمتار\n• Explosion-Proof على كل المعدات الكهربائية\n• Gas Detector متواصل عند 10% LEL\n\nPPE:\n• Nitrile Gloves + Safety Goggles + Half-Face OV/P100\n\nالتخلص: حاوية معدنية مُغلقة → شركة نفايات خطرة معتمدة",tip:"'كلها تشتعل في درجة الغرفة' — هذه الحقيقة تُوضح لماذا الطباعة خطر بالغ."}
+],
+ch34:[
+{q:"ما هي مخاطر الهواء المضغوط وكيف تتعامل معها؟",a:"مخاطر الهواء المضغوط:\n\n1. Pressure Injection (الأخطر):\n• 30 PSI يخترق الجلد → جروح داخلية\n• لا تُوجّه أبداً نحو الجسم\n\n2. Flying Debris: جسيمات تتحول لقذائف\n3. Equipment Failure: انفجار خراطيم بالية\n4. الضوضاء: مسربات الهواء 90 dB+\n\nاشتراطات السلامة:\n• أقصى ضغط للتنظيف: 30 PSI + Safety Nozzle\n• LOTO: تصفير الضغط قبل فك الوصلات\n• فحص يومي للخراطيم (تشقق، تآكل)\n• Safety Whip Restraint على الخراطيم الكبيرة\n• تصريف رطوبة الخزانات يومياً\n• فحص الخزانات سنوياً من مفتش معتمد\n\nأهم قاعدة:\nلا استخدام الهواء لتنظيف الجسم أو الملابس أبداً!",tip:"30 PSI يقتل — هذا الرقم يُفاجئ كثيرين ويُغيّر سلوكهم نحو الهواء المضغوط."}
+],
+ch35:[
+{q:"ما هي متطلبات سلامة الرافعات الشوكية؟",a:"مخاطر الرافعة:\n1. الاصطدام بالمشاة: الأكثر قتلاً\n2. الانقلاب: سرعة زائدة أو حمل زائد\n3. سقوط الحمولة: تكديس خاطئ\n\nمتطلبات السائق:\n• رخصة معتمدة + تجديد كل 3 سنوات\n• Pre-Shift Inspection قبل كل وردية\n• حزام أمان مُرتدى دائماً\n• لا موبايل أثناء القيادة\n\nمتطلبات البيئة:\n• حد السرعة: 8 km/h داخل المبنى\n• مسارات مشاة محددة بخطوط صفراء\n• مرايا في التقاطعات العمياء\n\nPre-Shift Inspection:\n• فرامل + نظام تحذير + أشواك + إطارات + ROPS",tip:"Pre-Shift Inspection موثق = دليل على برنامج سلامة صارم ومنظم."}
+],
+ch36:[
+{q:"ما هي متطلبات سلامة المستودعات في مصانع العبوات؟",a:"متطلبات سلامة المستودعات:\n\nالتصميم:\n• ممرات ≥ 3 متر للرافعات\n• مسارات مشاة معزولة بخطوط صفراء\n• إضاءة ≥ 200 lux\n\nالرفوف:\n• تثبيت الأعمدة في الأرض\n• لافحة الحمل الأقصى على كل رف\n• حواجز حماية أسفل الأعمدة\n• فحص دوري للتشوه والانثناء\n\nالتكديس:\n• الأثقل في القاع دائماً\n• لا تجاوز طاقة الرف\n• 45 سم تحت رشاشات الحريق إلزامي\n\nالحريق:\n• Sprinkler + طفاية كل 15 متر\n• مخارج طوارئ واضحة\n• لا تكديس أمام الطفايات أو المخارج\n\nالكيميائيات: منطقة منفصلة مُهوَّأة + Containment Berm",tip:"45 سم تحت الرشاش ينتهك دائماً في المستودعات — اذكره لأنه تفصيل يُميزك."}
+],
+ch37:[
+{q:"ما هي متطلبات Hot Work Safety في مصانع البلاستيك؟",a:"Hot Work في مصانع البلاستيك — خطورة مضاعفة:\n• مذيبات الطباعة + لهب = حريق فوري\n• PVC يُطلق أبخرة عند التسخين\n\nقبل إصدار التصريح:\n• قياس الغاز < 10% LEL (ليس 25%!)\n• إزالة المواد القابلة للاشتعال 11 متر\n• طفاية CO2 ≥ 9 كيلو جاهزة\n• Fire Watch مُعيَّن ومدرب\n• إخطار القسمين المجاورين\n\nأثناء العمل:\n• Fire Watch لا يغادر أبداً\n• إعادة قياس الغاز كل 30 دقيقة\n\nبعد الانتهاء:\n• Fire Watch يبقى 60 دقيقة\n• فحص بـ Thermal Camera إن توفرت\n• إغلاق التصريح بتوقيع HSE\n\nمتى ترفض التصريح:\n• غاز > 10% LEL | لا Fire Watch | لا طفاية",tip:"10% LEL وليس 25% — هذا الفارق الحاسم يُثبت معرفتك التقنية الدقيقة."}
+],
+ch38:[
+{q:"ما هي خصائص قائد السلامة الفعّال؟",a:"Safety Leadership:\n\n1. Visible Leadership:\n• جولات ميدانية منتظمة مع الفريق\n• ارتداء PPE دائماً أمام العمال — بلا استثناء\n\n2. Stop Work Courage:\n• الجرأة على إيقاف الإنتاج عند الخطر\n\n3. Open Communication:\n• 'باب مفتوح' لمخاوف العمال\n• شكر من يُبلّغ عن Near Miss علناً\n\n4. Accountability:\n• محاسبة عادلة + ثناء على السلوك الآمن\n\n5. Resource Champion:\n• يُقاتل للحصول على ميزانية السلامة بالأرقام\n\nالقاعدة الذهبية:\nالعمال يفعلون ما يرون القادة يفعلونه، ليس ما يسمعونه",tip:"'يفعلون ما يرون لا ما يسمعون' — هذه الجملة تُلخص فلسفة Safety Leadership كاملاً."}
+],
+ch39:[
+{q:"كيف تقيس ثقافة السلامة وتحسّنها؟",a:"قياس Safety Culture:\n\n1. Safety Culture Survey: استبيان سنوي لقياس الاتجاهات والإدراك\n\n2. Safety Maturity Model:\n1. Pathological: 'لماذا نهتم بالسلامة؟'\n2. Reactive: نُعالج بعد الحوادث فقط\n3. Calculative: نُطبق لأن القانون يُلزمنا\n4. Proactive: نُفكر في المخاطر استباقياً\n5. Generative: السلامة في كل قرار وكل لحظة\n\n3. Leading Indicators: كثرة Near Miss = ثقافة إبلاغ قوية\n\n4. BBS Observation Trend: %Safe يرتفع = ثقافة تتحسن\n\nعلامة الثقافة القوية:\nعامل يُوقف العمل غير الآمن من تلقاء نفسه = Generative Level\n\nالتحسين: Leadership Commitment أولاً وأخيراً",tip:"Maturity Model الخماسي يُظهر أنك تفكر في السلامة كرحلة وليس وجهة ثابتة."}
+],
+ch40:[
+{q:"ما هي أكثر الأسئلة شيوعاً في مقابلات مصانع التعبئة الكبرى؟",a:"أسئلة شائعة في مصانع التعبئة العالمية:\n\n'أخبرني عن نفسك':\n→ التعليم + شهاداتك + إنجاز واحد برقم محدد\n\n'ما أصعب تحدٍّ واجهته؟':\n→ مثال حقيقي + كيف حللته + ماذا تعلمت\n\n'كيف توازن ضغط الإنتاج مع السلامة؟':\n→ السلامة غير تفاوضية — لكن الحل الذكي يخدم كليهما\n\n'ما معدل TRIR حققته في وظيفتك السابقة؟':\n→ رقم حقيقي + كيف حققته\n\nمتطلبات مصانع التعبئة الكبرى:\n• ISO 45001 + ISO 14001 (IMS متكامل)\n• BRC/IOP للعبوات الغذائية\n• خبرة بمعدات الطباعة الفليكسو والغرافور\n• معرفة بمخاطر المذيبات والـ PVC\n\nنصيحة الإعداد:\n• احضر TRIR رقمي حقيقي\n• احضر مثال JSA أعددته\n• احضر مثال تحقيق حادثة أجريته",tip:"الأرقام الحقيقية من خبرتك هي السلاح الأقوى في أي مقابلة — لا أحد يستطيع جادلك فيها."},
+{q:"كيف تُعدّ نفسك ليوم المقابلة في مصنع بلاستيك؟",a:"التحضير الكامل:\n\nأسبوع قبل المقابلة:\n• ابحث عن الشركة: منتجاتها، شهاداتها، عملاؤها\n• راجع ISO 45001 وOSHA الأساسية\n• حضّر 3 أمثلة: حادثة + Near Miss + إنجاز سلامة\n\nوثائق تحضّرها:\n• CV مُحدَّث بإنجازات رقمية\n• شهاداتك: NEBOSH, IOSH, OSHA 30h\n• نموذج Risk Assessment عملي\n• نموذج JSA أعددته\n\nيوم المقابلة:\n• ملابس احترافية + وصول مبكر 15 دقيقة\n• نسخ ورقية من وثائقك\n\nأثناء المقابلة:\n• استخدم أمثلة حقيقية دائماً: 'في وظيفتي السابقة...'\n• اطرح سؤالاً ذكياً: 'ما المخاطر الأبرز في مصنعكم حالياً؟'\n\nبعد المقابلة: رسالة شكر خلال 24 ساعة",tip:"سؤالك عن المخاطر الحالية في المصنع يُظهر أنك مهتم بالعمل الحقيقي وليس فقط الراتب."}
+],
+adv:[
+{q:"كيف تُصمم Emergency Response System متكامل لمصنع عبوات؟",a:"نظام الطوارئ المتكامل:\n\n1. سيناريوهات الطوارئ:\n• حريق مخزن المذيبات + انسكاب كيميائي + انفجار + إصابة جماعية\n\n2. هيكل ERT:\n• Emergency Commander\n• Fire Team (NFPA 1001)\n• First Aid/Medical Team\n• Evacuation Wardens (1:20 عامل)\n• Communications Officer\n• Environmental Spill Team\n\n3. أنظمة التنبيه:\n• Public Address + Manual Alarm + Auto Gas Detectors + خط طوارئ ساخن\n\n4. المعدات:\n• AED في كل منطقة رئيسية\n• Emergency Shower + Eyewash قرب كل كيميائي\n• Spill Kits عند خزانات المذيبات\n• Confined Space Rescue Kit\n\n5. التمارين:\n• Tabletop: ربع سنوي\n• Functional Drill: نصف سنوي\n• Full-Scale Drill: سنوي\n• After Action Review بعد كل تمرين",tip:"AED + Emergency Shower قرب كل كيميائي يُظهر نظاماً ناضجاً ومحترفاً."},
+{q:"ما هو Process Safety Management PSM وهل يُطبَّق في مصانع البلاستيك؟",a:"PSM: إدارة سلامة العمليات للمواد الكيميائية الخطرة بكميات كبيرة.\n\nوفق OSHA 29 CFR 1910.119 ينطبق عند:\n• سوائل قابلة للاشتعال > 10,000 رطل\n• مواد سامة عند عتبات محددة\n\nمصانع البلاستيك:\n• المتوسطة: قد لا تصل العتبات\n• الكبرى (Toluene بآلاف الجالونات): قد ينطبق PSM\n\nالعناصر الـ 14:\n1. Employee Participation\n2. Process Safety Information\n3. Process Hazard Analysis (HAZOP)\n4. Operating Procedures\n5. Training\n6. Contractors\n7. Pre-Startup Safety Review (PSSR)\n8. Mechanical Integrity\n9. Hot Work Permit\n10. Management of Change (MOC)\n11. Incident Investigation\n12. Emergency Planning\n13. Compliance Audits\n14. Trade Secrets",tip:"معرفة PSM وشروط انطباقه في مصانع البلاستيك تُثبت عمقاً تقنياً استثنائياً."},
+{q:"كيف تُطوّر برنامج Safety Training وفق نموذج ADDIE؟",a:"نموذج ADDIE:\n\nA — Analysis:\n• من يحتاج التدريب؟\n• ما الفجوة الحالية؟\n• ما نتائج غياب التدريب؟\n\nD — Design:\n• أهداف تعليمية SMART\n• نوع التدريب: نظري + عملي + Case Study\n\nD — Development:\n• عروض + فيديو + اختبارات قبل/بعد\n\nI — Implementation:\n• جدول زمني + مكان مناسب\n\nE — Evaluation (الأهم):\n• Level 1: رأي المتدربين\n• Level 2: اختبار المعرفة\n• Level 3: تغيير السلوك (ملاحظة بعد 30 يوم)\n• Level 4: تأثير على KPIs (TRIR, Near Miss)\n\nTraining Matrix:\nجدول (وظيفة × تدريب × تاريخ انتهاء × شهادة)",tip:"Level 3 و4 من Kirkpatrick Model هي الأقل تطبيقاً والأكثر أهمية — اذكرها."},
+{q:"ما هو Management of Change MOC في السلامة الصناعية؟",a:"MOC: نظام رسمي للتحكم في التغييرات لمنع إدخال مخاطر جديدة.\n\nأنواع التغييرات:\n• تغيير مادة بلاستيكية أو درجة حرارة البثق\n• إضافة حبر جديد في الطباعة\n• تعديل تصميم ماكينة أو نظام تهوية\n• تغيير مسؤول الطوارئ أو SOP\n\nخطوات MOC:\n1. طلب التغيير (MOC Request Form)\n2. تقييم مخاطر التغيير (RA جديد)\n3. الموافقة: HSE + هندسة + إنتاج\n4. التدريب على التغيير\n5. تطبيق التغيير\n6. PSSR: Pre-Startup Safety Review\n7. إغلاق MOC بعد التحقق\n\nحقيقة مهمة:\nكثير من الحوادث الكبرى حدثت بسبب تغييرات غير مُدارة",tip:"MOC هو درع الحماية من حوادث التغيير — كل حادثة 'عملنا كذا وما حدثنا مشكلة قبل' تحتاج MOC."},
+{q:"كيف تُجري Safety Climate Survey وتستخدم نتائجها؟",a:"Safety Climate Survey: قياس تصورات العمال نحو السلامة.\n\nأبعاد الاستبيان:\n1. Management Commitment\n2. Safety Communication\n3. Workers Involvement\n4. Near Miss Reporting\n5. Safety Training Adequacy\n6. Risk Perception\n7. Trust in HSE System\n\nمقياس Likert 1-5 + مجهول الهوية + 10-15 دقيقة\n\nتحليل النتائج:\n• متوسط كل بُعد\n• مقارنة بين الأقسام\n• مقارنة بالسنة السابقة\n\nالإجراء بناءً على النتائج:\n• Management Commitment منخفض → Toolbox Talks مع الإدارة\n• Near Miss Reporting منخفض → مراجعة No-Blame Policy\n\nالنشر: أعلن النتائج وخطة الاستجابة للعمال",tip:"نشر النتائج وإظهار الاستجابة يُضاعف الثقة في الاستبيانات التالية."},
+{q:"ما هو HAZOP وكيف يُطبَّق في خط بثق PVC؟",a:"HAZOP: Hazard and Operability Study\nدراسة منهجية لتحديد مخاطر العمليات باستخدام 'Guide Words'.\n\nGuide Words:\nNo / More / Less / As Well As / Part Of / Reverse / Other Than\n\nتطبيق على بثق PVC:\n\nGuide Word 'More' + Temperature:\n→ ماذا لو ارتفعت الحرارة فوق 220°C؟\n→ نتيجة: تدهور PVC + انبعاث HCl\n→ الضوابط الموجودة: Thermocouple + Alarm\n→ هل كافية؟ → توصية\n\nGuide Word 'No' + Flow:\n→ ماذا لو توقف تدفق مياه التبريد؟\n→ نتيجة: ارتفاع حرارة مفاجئ + ضغط\n→ الضوابط: Flow Sensor + Auto Shutdown\n\nالارتباط بـ ISO 45001:\nHAZOP يُلبّي متطلب تحديد المخاطر البند 6.1.2",tip:"HAZOP مع Guide Words يُثبت أنك تفكر كـ Process Safety Engineer — مستوى متقدم جداً."},
+{q:"كيف تُقنع الإدارة بزيادة ميزانية السلامة؟",a:"مقاربة ROI للسلامة:\n\n1. حساب تكلفة الحوادث الحالية:\n• تكلفة مباشرة: علاج + تعويض + إصلاح\n• تكلفة غير مباشرة: توقف + تحقيق + تدريب بديل\n• النسبة: غير المباشرة = 4-10× المباشرة\n\n2. حساب ROI:\n'استثمار 30,000 ج يمنع حادثة تكلف 150,000 ج'\nROI = 400%\n\n3. المخاطر القانونية:\n• غرامات عدم الامتثال\n• دعاوى قضائية محتملة\n\n4. تأثير على السمعة والعملاء:\n• الشركات الدولية تُدقق في سلامة المورّدين\n• فقدان شهادة = فقدان عقود\n\n5. Benchmarking:\n• ميزانيتنا مقارنة بالمنافسين في الصناعة\n\n6. الطلب المرحلي:\n• ابدأ بأولوية واحدة بعائد مُثبَّت بالأرقام",tip:"ROI للسلامة = الحجة الأقوى أمام الإدارة المالية — تعلم كيف تحسبه بالأرقام الحقيقية."},
+{q:"ما هي استراتيجية تحسين TRIR خلال 12 شهراً؟",a:"خطة تحسين TRIR:\n\nالشهر 1 — التحليل:\n• Pareto Analysis: أكثر 3 أسباب للإصابات\n• تحليل حسب القسم والوردية والنشاط\n\nالشهر 2-3 — تدخلات فورية:\n• معالجة الأسباب الأعلى أولاً\n• تحسين Engineering Controls\n• تقوية نظام Near Miss\n\nالشهر 4-6 — برامج متوسطة:\n• BBS: رفع %Safe\n• Buddy System للعمال الجدد\n• تدريب مكثف على LOTO وErgonomics\n\nالشهر 7-9 — تعزيز القيادة:\n• Safety Leadership للمشرفين\n• Safety Conversations يومية\n\nالشهر 10-12 — القياس والتثبيت:\n• قياس النتائج vs الهدف\n• الاحتفاء بالإنجازات\n\nهدف واقعي: تخفيض TRIR بـ 25-30% في 12 شهراً",tip:"هدف 25% بخطة مراحل واضحة يُثبت تفكيراً استراتيجياً ناضجاً."},
+{q:"ما هو Internal Audit وكيف يختلف عن Safety Inspection؟",a:"Safety Inspection:\n• تفتيش ميداني دوري\n• يُركز على الحالة المادية: PPE، حواجز، طفايات\n• يومي/أسبوعي\n• ينتهي بقائمة ملاحظات\n• يُجريه: Safety Officer أو المشرف\n\nSafety Audit:\n• مراجعة منهجية شاملة للنظام\n• يُركز على: الأنظمة، الوثائق، الإجراءات، التطبيق\n• ربع سنوي/سنوي\n• ينتهي بتقرير Audit رسمي + NCRs\n• يُجريه: فريق مدقق متخصص\n\n3 مستويات تدقيق:\n1. First Party: داخلي\n2. Second Party: من العميل\n3. Third Party: جهة ISO معتمدة (DNV, Bureau Veritas)\n\nRسالة أساسية:\nInspection = 'هل يرتدي العمال الخوذة؟'\nAudit = 'هل النظام الذي يضمن ارتداء الخوذة فعّال وموثق؟'",tip:"التمييز بين Audit وInspection يُظهر نضجاً مهنياً — كثيرون يخلطون بينهما."},
+{q:"كيف تتعامل مع مقاول يتجاهل قواعد السلامة في المصنع؟",a:"التعامل مع مخالفة سلامة المقاول:\n\nالتصعيد التدريجي:\n\nالمرة الأولى:\n• أوقف العمل المخالف فوراً\n• ناقش بعيداً عن الجمهور\n• تحذير شفهي + توثيق + توضيح القواعد\n\nالمرة الثانية:\n• Warning Letter رسمية + إعادة تدريب إلزامي\n\nالمرة الثالثة:\n• إيقاف الأعمال حتى يُجري فريق المقاول تدريب سلامة\n\nالمخالفة الخطيرة (تهديد الحياة):\n• إيقاف فوري + تحقيق كامل\n• احتمال إنهاء التعاقد\n\nالوقاية الأفضل:\n• Safety Agreement في العقد منذ البداية\n• Pre-Qualification صارم قبل التعاقد\n• Induction موثق قبل الدخول\n\nالقاعدة القاطعة:\nالمقاول داخل مصنعنا = يخضع لقوانيننا 100%",tip:"الصرامة الواضحة مع الإجراء التصعيدي المنظم تُثبت العدل والمهنية معاً."}
+],
+mgr:[
+{q:"أخبرني عن نفسك وما الذي يجعلك مناسباً لهذا المنصب؟",a:"هيكل الإجابة المثالية (120 ثانية):\n\n1. المقدمة:\n'أنا [الاسم]، حصلت على [المؤهل] وشهادة [NEBOSH/OSHA 30h] ولديّ [X سنوات] في السلامة المهنية.'\n\n2. الإنجاز الأبرز بالرقم:\n'في وظيفتي السابقة، خفّضت TRIR من [رقم] إلى [رقم] خلال [مدة] من خلال [برنامج محدد].'\n\n3. الخبرة ذات الصلة:\n'لديّ خبرة مباشرة مع [مخاطر البلاستيك / LOTO / Solvent Safety / ISO 45001].'\n\n4. الدافع الحقيقي:\n'ما يجذبني لمصنعكم تحديداً هو [منتجاتكم/شهادة ISO/توسعكم] وأنا مقتنع بأن خبرتي ستضيف قيمة حقيقية.'\n\nما يُقدّره المحاور:\n• ثقة هادئة بلا غرور\n• أرقام ملموسة وليس كلام عام\n• دقيقتان كحد أقصى",tip:"2 دقيقة بإنجاز واحد حقيقي بالرقم أفضل من 5 دقائق من الكلام العام دائماً."},
+{q:"كيف تتعامل مع عامل قديم خبير يرفض السلامة؟",a:"التعامل مع العامل القديم الرافض:\n\nالخطوة 1 — الفهم أولاً:\n• محادثة خاصة بعيداً عن الجمهور\n• 'لماذا يرفض؟' → تعب؟ لا يرى الفائدة؟ ضغط وقت؟\n\nالخطوة 2 — الاستفادة من خبرته:\n• 'أنت أكثر خبرة مني بهذه الماكينة — ساعدني أطبّق الإجراء بشكل عملي'\n• اجعله شريكاً في الحل لا عدواً\n\nالخطوة 3 — التعليم بالواقع:\n• شارك حادثة حقيقية لعامل بنفس الخبرة\n• 'الحوادث لا تختار الخبير أو المبتدئ'\n\nالخطوة 4 — التوثيق:\n• وثّق المحادثات + تحذير رسمي عند الضرورة\n\nالخطوة 5 — التصعيد:\n• إشراك المشرف المباشر إذا استمر الرفض\n\nالقاعدة:\nالعامل القديم الذي لا يلتزم أخطر من المبتدئ لأنه قد يُؤثر على الآخرين",tip:"جعل العامل القديم حليفاً بدلاً من خصم — الذكاء العاطفي هنا أهم من السلطة."},
+{q:"ما أصعب قرار اتخذته في مسيرتك المهنية في السلامة؟",a:"نموذج إجابة مثالية:\n\nهذا سؤال يختبر الشجاعة والنزاهة:\n\n'في شركتي السابقة، اكتشفت أثناء جولة تفتيش أن خط بثق رئيسي يُشغَّل بحاجز مكسور منذ 3 أيام — الخط مسؤول عن 40% من الإنتاج اليومي والعميل ينتظر شحنة عاجلة.'\n\nما كان صعباً:\n• ضغط الإنتاج + معارضة مدير الإنتاج\n\nماذا فعلت:\n• أوقفت الخط باستخدام Stop Work Authority\n• وثّقت فوراً بالصور\n• اتصلت بمدير المصنع مباشرة\n• التزمت بموقفي بهدوء وحزم\n\nالنتيجة:\n• الحاجز تم إصلاحه في 4 ساعات\n• المدير اعتذر لاحقاً\n\nما تعلمته:\nStop Work لا تعني عدوانية — تعني مسؤولية حقيقية",tip:"قرار إيقاف الإنتاج مع نتيجة إيجابية = القصة المثالية التي يبحث عنها كل محاور."},
+{q:"كيف ستضع خطتك للـ 90 يوم الأولى في وظيفة HSE جديدة؟",a:"خطة الـ 90 يوماً:\n\nالـ 30 يوم الأولى — الاستماع والتقييم:\n• اجتماع مع مدير المصنع: التوقعات والأولويات\n• جولات تفتيش يومية مع المشرفين\n• مراجعة: سجلات حوادث 12 شهر + Risk Assessments\n• مقابلات مع 10+ عمال عشوائياً\n• لا أحكام ولا قرارات متسرعة\n\nالـ 30-60 يوم — التخطيط:\n• Gap Analysis: الوضع الحالي مقابل المتطلبات\n• تحديد الأولويات: ما يُعرّض الحياة للخطر فوراً\n• خطة عمل 12 شهراً مع عرضها للإدارة\n\nالـ 60-90 يوم — البدء:\n• تنفيذ الأولويات الفورية\n• إطلاق التدريبات الأساسية\n• تفعيل نظام Near Miss\n• بناء علاقات إيجابية مع المشرفين\n\nالرسالة:\n'أنا لن أُصدر قرارات بدون فهم واقعكم أولاً'",tip:"'الاستماع قبل الإجراء' يُثبت النضج المهني — المتسرعون يُخطئون في الأشهر الأولى."},
+{q:"كيف تُقنع مدير الإنتاج المقتنع بأن السلامة تُعيق الإنتاج؟",a:"مقاربة إقناع مدير الإنتاج:\n\nأولاً: استمع لمخاوفه الحقيقية:\n'ما الذي يُعيقك تحديداً؟ إجراء معين؟ وقت توقف؟'\n\nثانياً: لغة الأرقام:\n• تكلفة حادثة LTI = X أيام إنتاج ضائعة\n• الاستثمار في الحاجز = 1% من تكلفة الحادثة\n\nثالثاً: البحث المشترك عن حلول:\n'دعني أُراجع إجراء الـ LOTO معك — يمكن تقليل وقت الإيقاف من 20 دقيقة إلى 8 بتخطيط أفضل'\n\nرابعاً: إحصاءات الصناعة:\n• شركات DuPont وAlcoa = أعلى أداءً وأفضل سلامة في نفس الوقت\n\nخامساً: الشراكة:\n'أنا لستُ هنا لأُوقف الإنتاج — أنا هنا لأضمن استمراريته بلا حوادث'\n\nالقاعدة:\nمدير الإنتاج حليف محتمل وليس خصم",tip:"'أضمن استمرارية الإنتاج بلا حوادث' — هذه الجملة تُحوّل الخصم لحليف."}
+],
+eng:[
+{q:"What is your understanding of a Safety Management System?",a:"A Safety Management System (SMS) is a systematic and proactive approach to managing safety risks.\n\nFour Key Pillars:\n1. Safety Policy: Top management commitment — written, signed, communicated to all.\n2. Safety Risk Management: Hazard ID → Risk Assessment → Hierarchy of Controls\n3. Safety Assurance: Monitoring, auditing, reviewing performance\n4. Safety Promotion: Training, communication, building safety culture\n\nISO 45001 Framework (PDCA):\nPlan → Do → Check → Act — continuous improvement cycle\n\nIn plastic packaging factories:\nSMS covers: extrusion hazards, solvent management, machine guarding, LOTO, emergency response, contractor control.\n\nKey benefit:\nShifts safety from reactive (fix after accident) to proactive (prevent before accident).",tip:"Mentioning ISO 45001 and PDCA signals your international standards knowledge immediately."},
+{q:"How would you handle a chemical spill of printing solvent?",a:"Chemical Spill Response:\n\nStep 1 — Assess (5 seconds):\n• What chemical? Size? Casualties? → Check SDS immediately\n\nStep 2 — Alert:\n• Raise alarm + notify HSE + clear unauthorized personnel\n\nStep 3 — Control ignition sources:\n• Toluene/MEK Flash Point near/below room temp\n• Shut down electrical equipment + no smoking\n\nStep 4 — Contain and clean:\nSmall spill (< 4 liters):\n• PPE: Nitrile gloves + goggles + Half-Face OV respirator\n• Absorb from edges to center\n• Collect in labeled hazardous waste container\n\nLarge spill:\n• Full evacuation + specialized emergency team\n\nStep 5 — Document and Investigate:\n• Incident report + root cause analysis + corrective actions\n\nCritical point:\nAlways consult SDS Section 6 (Release) and Section 8 (PPE) first.",tip:"'Check SDS first for every chemical' shows you know different solvents need different responses."},
+{q:"What is LOTO and why is it critical in plastic extrusion plants?",a:"LOTO: Lockout/Tagout — Control of Hazardous Energy during maintenance.\n\nWhy critical in extrusion plants:\nExtruders have MULTIPLE energy sources:\n• Electrical: Main drive motor\n• Thermal: Heater bands (200-280°C)\n• Pneumatic: Air-operated actuators\n• Hydraulic: Hydraulic pressure\n• Mechanical: Stored rotational energy\n\nLOTO 6-Step Procedure:\n1. Notify all affected workers\n2. Identify ALL energy sources\n3. Shut down equipment\n4. Isolate each energy source\n5. Apply personal padlock + tag per worker\n6. Verify zero energy: try start button + measure voltage\n\nGroup LOTO:\n• Multiple workers → Hasp device\n• Each worker places own personal lock\n• Machine cannot start until LAST lock removed\n\nCommon mistakes:\n• Tag-only without lock\n• Not verifying zero energy state\n• Not releasing stored pressure/heat",tip:"Emphasize Step 6 (Verify) — most frequently skipped, most critical step."},
+{q:"Explain the hierarchy of controls with examples from a plastic packaging factory.",a:"Hierarchy of Controls:\n\n1. ELIMINATION (Best):\nPhysically remove the hazard.\nExample: Switch from PVC to LDPE → eliminates HCl fume hazard entirely.\n\n2. SUBSTITUTION:\nReplace with something less hazardous.\nExample: Replace Toluene-based ink with water-based ink in flexographic printing.\n\n3. ENGINEERING CONTROLS:\nIsolate people from the hazard.\nExample: Install LEV directly above the die head.\nExample: Machine guarding with interlocks on cutting lines.\n\n4. ADMINISTRATIVE CONTROLS:\nChange the way people work.\nExample: Rotate workers every 2 hours in high-noise areas.\nExample: Written JSA + SOP for die change procedure.\nExample: Hot Work Permit for welding near printing solvents.\n\n5. PPE (Least effective):\nProtect the worker — does NOT eliminate the hazard.\nExample: Half-face respirator with OV cartridge for solvent exposure.\n\nKey principle:\nPPE is the LAST resort, not the first choice!\nEngineering controls protect everyone automatically.",tip:"Wrong order (PPE first) is a red flag — the interviewer tests this specifically."},
+{q:"What are the key HSE KPIs you would use to measure safety performance?",a:"HSE KPIs — Balanced Scorecard:\n\nLAGGING Indicators:\nTRIR = (Recordable injuries × 200,000) ÷ Hours worked\nTarget: < 1.0 for packaging industry\n\nLTIR = (LTIs × 200,000) ÷ Hours worked\nTarget: < 0.5\n\nSeverity Rate = (Lost days × 200,000) ÷ Hours worked\n\nLEADING Indicators:\n• Inspection Completion Rate (target: 100% monthly plan)\n• Near Miss Reports per Month (target: increasing trend)\n• Observation Closure Rate within due date (target: > 90%)\n• Training Completion Rate (target: > 95%)\n• % Safe Behaviors from BBS\n• Emergency Drill Completion\n\nWhy balance matters:\nLow TRIR + Low Near Miss = DANGEROUS — may indicate under-reporting.\nLow TRIR + High Near Miss = Healthy proactive culture.\n\nPresentation:\n• Monthly dashboard to management\n• 12-month trend charts",tip:"Explaining why low Near Miss with low TRIR can be suspicious shows sophisticated KPI thinking."}
+],
+gls:[
+{q:"مصطلحات HSE الأساسية — الأكثر استخداماً في المصانع",a:"المصطلحات التقنية الأساسية:\n\nالمخاطر والمخاطرة:\n• خطر = Hazard\n• مخاطرة = Risk\n• تقييم المخاطر = Risk Assessment\n• مصفوفة المخاطر = Risk Matrix\n• خطر وشيك = Imminent Danger\n\nالحوادث والإصابات:\n• حادث = Incident / Accident\n• إصابة مع غياب = Lost Time Injury (LTI)\n• حادث وشيك = Near Miss\n• إصابة طفيفة = First Aid Case (FAC)\n• معدل الإصابات الكلي = TRIR\n• معدل الأيام الضائعة = LTIR\n\nأدوات السلامة:\n• HAZOP = Hazard and Operability Study\n• JSA = Job Safety Analysis\n• SOP = Standard Operating Procedure\n• PTW = Permit to Work\n• LOTO = Lockout / Tagout\n• BBS = Behavior Based Safety\n\nالمعدات والحماية:\n• PPE = Personal Protective Equipment\n• SDS = Safety Data Sheet\n• LEV = Local Exhaust Ventilation\n• AED = Automated External Defibrillator",tip:"المصطلحات الدقيقة تفتح أبواب الوظائف في الشركات متعددة الجنسيات."},
+{q:"مصطلحات الكيمياء والتعرض المهني",a:"مصطلحات الكيمياء والتعرض:\n\nحدود التعرض:\n• PEL = Permissible Exposure Limit (OSHA - ملزم)\n• TLV = Threshold Limit Value (ACGIH - مرجع علمي)\n• TWA = Time Weighted Average (متوسط 8 ساعات)\n• STEL = Short Term Exposure Limit (15 دقيقة)\n• IDLH = Immediately Dangerous to Life or Health\n• OEL = Occupational Exposure Limit\n\nالغازات والتفجير:\n• LEL = Lower Explosive Limit (10% = عتبة Hot Work)\n• UEL = Upper Explosive Limit\n• Flash Point = نقطة الاشتعال\n• Auto-Ignition = الاشتعال الذاتي\n• VOC = Volatile Organic Compound\n\nالتصنيف والتوسيم:\n• GHS = Globally Harmonized System\n• H-Statement = Hazard Statement\n• P-Statement = Precautionary Statement\n\nأمثلة من مصانع البلاستيك:\n• Toluene PEL = 200 ppm | TLV = 20 ppm\n• VCM PEL = 1 ppm (مسرطن Class 1)",tip:"ربط المصطلح بالتطبيق العملي دائماً — يُثبت أنك تستخدمه فعلاً وليس مجرد حفظ."},
+{q:"مصطلحات الأنظمة والمعايير الدولية",a:"مصطلحات الأنظمة والمعايير:\n\nالأنظمة:\n• SMS = Safety Management System\n• IMS = Integrated Management System\n• EHS = Environment Health & Safety\n• PDCA = Plan-Do-Check-Act\n• HLS = High Level Structure\n\nالتدقيق والمطابقة:\n• NC = Non-Conformity\n• OFI = Opportunity for Improvement\n• CAR = Corrective Action Request\n• CAPA = Corrective & Preventive Action\n\nإدارة التغيير والعمليات:\n• MOC = Management of Change\n• PSSR = Pre-Startup Safety Review\n• PHA = Process Hazard Analysis\n• FMEA = Failure Mode and Effects Analysis\n• RPN = Risk Priority Number\n\nالأداء والمؤشرات:\n• KPI = Key Performance Indicator\n• TRIR = Total Recordable Incident Rate\n• LTIR = Lost Time Injury Rate\n• SI = Severity Index\n• STS = Standard Threshold Shift\n\nالمعايير الدولية:\n• ISO 45001 = نظام إدارة السلامة والصحة المهنية\n• ISO 14001 = نظام إدارة البيئة\n• ISO 9001 = نظام إدارة الجودة",tip:"القاموس الثنائي يُسهّل العمل في الشركات متعددة الجنسيات ويُثبت جاهزيتك للعمل الدولي."}
+]
+};
+// ══════════════════════════════════════════════
+//  CHAPTERS & SPECIALS
+// ══════════════════════════════════════════════
+const CHAPTERS=[
+{id:'ch1',n:1,ar:'مقدمة في السلامة المهنية',en:'OHS Introduction'},
+{id:'ch2',n:2,ar:'أساسيات OSHA',en:'OSHA Fundamentals'},
+{id:'ch3',n:3,ar:'ISO 45001',en:'ISO 45001'},
+{id:'ch4',n:4,ar:'تقييم المخاطر',en:'Risk Assessment'},
+{id:'ch5',n:5,ar:'تحديد المخاطر',en:'Hazard Identification'},
+{id:'ch6',n:6,ar:'هرم التحكم في المخاطر',en:'Hierarchy of Controls'},
+{id:'ch7',n:7,ar:'تحليل سلامة المهام JSA',en:'Job Safety Analysis'},
+{id:'ch8',n:8,ar:'التحقيق في الحوادث',en:'Incident Investigation'},
+{id:'ch9',n:9,ar:'تحليل السبب الجذري',en:'Root Cause Analysis'},
+{id:'ch10',n:10,ar:'الإبلاغ عن Near Miss',en:'Near Miss Reporting'},
+{id:'ch11',n:11,ar:'نظام تصاريح العمل PTW',en:'Permit To Work'},
+{id:'ch12',n:12,ar:'LOTO - عزل الطاقة',en:'Lockout / Tagout'},
+{id:'ch13',n:13,ar:'السلامة الكهربائية',en:'Electrical Safety'},
+{id:'ch14',n:14,ar:'سلامة الآلات',en:'Machine Safety'},
+{id:'ch15',n:15,ar:'مكافحة الحرائق',en:'Fire Fighting'},
+{id:'ch16',n:16,ar:'الاستجابة للطوارئ',en:'Emergency Response'},
+{id:'ch17',n:17,ar:'الدخول للأماكن المقيدة',en:'Confined Space Entry'},
+{id:'ch18',n:18,ar:'العمل على الارتفاعات',en:'Work At Height'},
+{id:'ch19',n:19,ar:'سلامة الحفريات',en:'Excavation Safety'},
+{id:'ch20',n:20,ar:'السلامة الكيميائية',en:'Chemical Safety'},
+{id:'ch21',n:21,ar:'SDS و GHS',en:'SDS and GHS'},
+{id:'ch22',n:22,ar:'معدات الحماية PPE',en:'Personal Protective Equipment'},
+{id:'ch23',n:23,ar:'الصحة الصناعية',en:'Industrial Hygiene'},
+{id:'ch24',n:24,ar:'مخاطر الضوضاء',en:'Noise Hazards'},
+{id:'ch25',n:25,ar:'الإرغونوميكس',en:'Ergonomics'},
+{id:'ch26',n:26,ar:'سلامة المقاولين',en:'Contractor Safety'},
+{id:'ch27',n:27,ar:'السلامة السلوكية BBS',en:'Behavior Based Safety'},
+{id:'ch28',n:28,ar:'مؤشرات الأداء KPIs',en:'Safety KPIs'},
+{id:'ch29',n:29,ar:'السلامة البيئية',en:'Environmental Safety'},
+{id:'ch30',n:30,ar:'مخاطر صناعة العبوات',en:'Plastic Packaging Hazards'},
+{id:'ch31',n:31,ar:'مخاطر عمليات البثق',en:'Extrusion Process Hazards'},
+{id:'ch32',n:32,ar:'مخاطر عمليات الطباعة',en:'Printing Process Hazards'},
+{id:'ch33',n:33,ar:'المذيبات القابلة للاشتعال',en:'Solvents & Flammable Liquids'},
+{id:'ch34',n:34,ar:'أنظمة الهواء المضغوط',en:'Compressed Air Systems'},
+{id:'ch35',n:35,ar:'سلامة الرافعات الشوكية',en:'Forklift Safety'},
+{id:'ch36',n:36,ar:'سلامة المستودعات',en:'Warehouse Safety'},
+{id:'ch37',n:37,ar:'سلامة أعمال الحرارة',en:'Hot Work Safety'},
+{id:'ch38',n:38,ar:'قيادة السلامة',en:'Safety Leadership'},
+{id:'ch39',n:39,ar:'ثقافة السلامة',en:'Safety Culture'},
+{id:'ch40',n:40,ar:'مقابلات مصنع EPL',en:'EPL Factory Interviews'}
+];
+const SPECIALS=[
+{id:'adv',icon:'🎓',title:'أسئلة فنية متقدمة لمدير HSE',count:'أسئلة استراتيجية'},
+{id:'mgr',icon:'👔',title:'أسئلة مدير المصنع النموذجية',count:'أسئلة واقعية'},
+{id:'eng',icon:'🇬🇧',title:'أسئلة إنجليزية مع إجابات نموذجية',count:'English Q&A'},
+{id:'gls',icon:'📗',title:'مسرد المصطلحات عربي-إنجليزي',count:'HSE Glossary'}
+];
+// ══════════════════════════════════════════════
+//  BUILD UI
+// ══════════════════════════════════════════════
+function buildUI(){
+  const cg=document.getElementById('cgrid');
+  CHAPTERS.forEach(ch=>{
+    const b=document.createElement('button');
+    b.className='cbtn';
+    b.innerHTML=`<div class="ch-n">الفصل ${String(ch.n).padStart(2,'0')}</div><div class="ch-t">${ch.ar}</div><div class="ch-e">${ch.en}</div>`;
+    b.onclick=()=>show(ch.id,ch.ar,ch.en,ch.n+'/40',b);
+    cg.appendChild(b);
+  });
+  const sg=document.getElementById('spgrid');
+  SPECIALS.forEach(sp=>{
+    const b=document.createElement('button');
+    b.className='spbtn';
+    b.innerHTML=`<div class="sp-ic">${sp.icon}</div><div><div class="sp-tl">${sp.title}</div><div class="sp-ct">${sp.count}</div></div>`;
+    b.onclick=()=>show(sp.id,sp.title,sp.count,'',b);
+    sg.appendChild(b);
+  });
+}
+function setActive(btn){
+  document.querySelectorAll('.cbtn,.spbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+}
+function show(id,title,sub,extra,btn){
+  setActive(btn);
+  const data=DB[id];
+  if(!data||!data.length){alert('لا توجد بيانات لهذا القسم.');return;}
+  document.getElementById('rtitle').textContent='📖 '+title;
+  const m=document.getElementById('rmeta');
+  m.innerHTML='';
+  [sub,extra].filter(Boolean).forEach(t=>{
+    const s=document.createElement('span');
+    s.className='mtag';s.textContent=t;m.appendChild(s);
+  });
+  document.getElementById('qcn').textContent=data.length;
+  document.getElementById('qctr').style.display='flex';
+  const c=document.getElementById('qcont');
+  c.innerHTML='';
+  data.forEach((item,i)=>{
+    const d=document.createElement('div');
+    d.className='qitem';
+    d.style.animationDelay=(i*0.03)+'s';
+    const te=item.tip?`<div class="tipb">💡 <strong>نصيحة المقابلة:</strong> ${esc(item.tip)}</div>`:'';
+    d.innerHTML=`
+      <div class="qqst" onclick="tog(this)">
+        <span class="qn">${i+1}</span>
+        <span class="qt">${esc(item.q)}</span>
+        <span class="qtg">▼</span>
+      </div>
+      <div class="qans">
+        <div class="ains">
+          <div class="albl">✅ الإجابة النموذجية</div>
+          <div class="atxt">${esc(item.a)}</div>
+          ${te}
+        </div>
+      </div>`;
+    c.appendChild(d);
+  });
+  const rp=document.getElementById('rp');
+  rp.classList.add('visible');
+  setTimeout(()=>rp.scrollIntoView({behavior:'smooth',block:'start'}),100);
+}
+function tog(el){el.closest('.qitem').classList.toggle('open')}
+function expAll(){document.querySelectorAll('.qitem').forEach(i=>i.classList.add('open'))}
+function colAll(){document.querySelectorAll('.qitem').forEach(i=>i.classList.remove('open'))}
+function esc(s){
+  return String(s)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+buildUI();
+</script>
+</body>
+</html>
